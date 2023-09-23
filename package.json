@@ -1,0 +1,21 @@
+{
+  "name": "bytecode-shredder",
+  "scripts": {
+    "compile": "node compile.js",
+    "test": "node compile.js && mocha --timeout 30000 test/SimpleStorage.test.js",
+    "test:debug": "DEBUG=true npm run test",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "get-line-from-pos": "^1.0.0",
+    "solc": "^0.8.21"
+  },
+  "devDependencies": {
+    "ethers": "^6.7.1",
+    "fs-extra": "^11.1.1",
+    "ganache-core": "^2.13.2",
+    "mocha": "^10.2.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,498 @@
+    /* "contracts/RealExample.sol":2781:3464  contract Ownable is Context {... */
+  mstore(0x40, 0x80)
+    /* "contracts/RealExample.sol":2937:3091  constructor () {... */
+  callvalue
+  dup1
+  iszero
+  tag_1
+  jumpi
+  0x00
+  dup1
+  revert
+tag_1:
+  pop
+    /* "contracts/RealExample.sol":2963:2980  address msgSender */
+  0x00
+    /* "contracts/RealExample.sol":2983:2995  _msgSender() */
+  tag_4
+    /* "contracts/RealExample.sol":2983:2993  _msgSender */
+  shl(0x20, tag_5)
+    /* "contracts/RealExample.sol":2983:2995  _msgSender() */
+  0x20
+  shr
+  jump	// in
+tag_4:
+    /* "contracts/RealExample.sol":2963:2995  address msgSender = _msgSender() */
+  swap1
+  pop
+    /* "contracts/RealExample.sol":3015:3024  msgSender */
+  dup1
+    /* "contracts/RealExample.sol":3006:3012  _owner */
+  0x00
+  dup1
+    /* "contracts/RealExample.sol":3006:3024  _owner = msgSender */
+  0x0100
+  exp
+  dup2
+  sload
+  dup2
+  0xffffffffffffffffffffffffffffffffffffffff
+  mul
+  not
+  and
+  swap1
+  dup4
+  0xffffffffffffffffffffffffffffffffffffffff
+  and
+  mul
+  or
+  swap1
+  sstore
+  pop
+    /* "contracts/RealExample.sol":3073:3082  msgSender */
+  dup1
+    /* "contracts/RealExample.sol":3040:3083  OwnershipTransferred(address(0), msgSender) */
+  0xffffffffffffffffffffffffffffffffffffffff
+  and
+    /* "contracts/RealExample.sol":3069:3070  0 */
+  0x00
+    /* "contracts/RealExample.sol":3040:3083  OwnershipTransferred(address(0), msgSender) */
+  0xffffffffffffffffffffffffffffffffffffffff
+  and
+  0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0
+  mload(0x40)
+  mload(0x40)
+  dup1
+  swap2
+  sub
+  swap1
+  log3
+    /* "contracts/RealExample.sol":2952:3091  {... */
+  pop
+    /* "contracts/RealExample.sol":2781:3464  contract Ownable is Context {... */
+  jump(tag_6)
+    /* "contracts/RealExample.sol":1239:1337  function _msgSender() internal view virtual returns (address) {... */
+tag_5:
+    /* "contracts/RealExample.sol":1292:1299  address */
+  0x00
+    /* "contracts/RealExample.sol":1319:1329  msg.sender */
+  caller
+    /* "contracts/RealExample.sol":1312:1329  return msg.sender */
+  swap1
+  pop
+    /* "contracts/RealExample.sol":1239:1337  function _msgSender() internal view virtual returns (address) {... */
+  swap1
+  jump	// out
+    /* "contracts/RealExample.sol":2781:3464  contract Ownable is Context {... */
+tag_6:
+  dataSize(sub_0)
+  dup1
+  dataOffset(sub_0)
+  0x00
+  codecopy
+  0x00
+  return
+stop
+
+sub_0: assembly {
+        /* "contracts/RealExample.sol":2781:3464  contract Ownable is Context {... */
+      mstore(0x40, 0x80)
+      callvalue
+      dup1
+      iszero
+      tag_1
+      jumpi
+      0x00
+      dup1
+      revert
+    tag_1:
+      pop
+      jumpi(tag_2, lt(calldatasize, 0x04))
+      shr(0xe0, calldataload(0x00))
+      dup1
+      0x715018a6
+      eq
+      tag_3
+      jumpi
+      dup1
+      0x8da5cb5b
+      eq
+      tag_4
+      jumpi
+    tag_2:
+      0x00
+      dup1
+      revert
+        /* "contracts/RealExample.sol":3313:3461  function renounceOwnership() public virtual onlyOwner {... */
+    tag_3:
+      tag_5
+      tag_6
+      jump	// in
+    tag_5:
+      stop
+        /* "contracts/RealExample.sol":3099:3178  function owner() public view returns (address) {... */
+    tag_4:
+      tag_7
+      tag_8
+      jump	// in
+    tag_7:
+      mload(0x40)
+      tag_9
+      swap2
+      swap1
+      tag_10
+      jump	// in
+    tag_9:
+      mload(0x40)
+      dup1
+      swap2
+      sub
+      swap1
+      return
+        /* "contracts/RealExample.sol":3313:3461  function renounceOwnership() public virtual onlyOwner {... */
+    tag_6:
+        /* "contracts/RealExample.sol":3236:3248  _msgSender() */
+      tag_12
+        /* "contracts/RealExample.sol":3236:3246  _msgSender */
+      tag_13
+        /* "contracts/RealExample.sol":3236:3248  _msgSender() */
+      jump	// in
+    tag_12:
+        /* "contracts/RealExample.sol":3226:3248  _owner == _msgSender() */
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+        /* "contracts/RealExample.sol":3226:3232  _owner */
+      0x00
+      dup1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+        /* "contracts/RealExample.sol":3226:3248  _owner == _msgSender() */
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+      eq
+        /* "contracts/RealExample.sol":3218:3285  require(_owner == _msgSender(), "Ownable: caller is not the owner") */
+      tag_14
+      jumpi
+      mload(0x40)
+      0x08c379a000000000000000000000000000000000000000000000000000000000
+      dup2
+      mstore
+      0x04
+      add
+      tag_15
+      swap1
+      tag_16
+      jump	// in
+    tag_15:
+      mload(0x40)
+      dup1
+      swap2
+      sub
+      swap1
+      revert
+    tag_14:
+        /* "contracts/RealExample.sol":3420:3421  0 */
+      0x00
+        /* "contracts/RealExample.sol":3383:3423  OwnershipTransferred(_owner, address(0)) */
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+        /* "contracts/RealExample.sol":3404:3410  _owner */
+      0x00
+      dup1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+        /* "contracts/RealExample.sol":3383:3423  OwnershipTransferred(_owner, address(0)) */
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+      0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0
+      mload(0x40)
+      mload(0x40)
+      dup1
+      swap2
+      sub
+      swap1
+      log3
+        /* "contracts/RealExample.sol":3451:3452  0 */
+      0x00
+        /* "contracts/RealExample.sol":3434:3440  _owner */
+      dup1
+      0x00
+        /* "contracts/RealExample.sol":3434:3453  _owner = address(0) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "contracts/RealExample.sol":3313:3461  function renounceOwnership() public virtual onlyOwner {... */
+      jump	// out
+        /* "contracts/RealExample.sol":3099:3178  function owner() public view returns (address) {... */
+    tag_8:
+        /* "contracts/RealExample.sol":3137:3144  address */
+      0x00
+        /* "contracts/RealExample.sol":3164:3170  _owner */
+      dup1
+      0x00
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffffffffffffffffffffffffffff
+      and
+        /* "contracts/RealExample.sol":3157:3170  return _owner */
+      swap1
+      pop
+        /* "contracts/RealExample.sol":3099:3178  function owner() public view returns (address) {... */
+      swap1
+      jump	// out
+        /* "contracts/RealExample.sol":1239:1337  function _msgSender() internal view virtual returns (address) {... */
+    tag_13:
+        /* "contracts/RealExample.sol":1292:1299  address */
+      0x00
+        /* "contracts/RealExample.sol":1319:1329  msg.sender */
+      caller
+        /* "contracts/RealExample.sol":1312:1329  return msg.sender */
+      swap1
+      pop
+        /* "contracts/RealExample.sol":1239:1337  function _msgSender() internal view virtual returns (address) {... */
+      swap1
+      jump	// out
+        /* "#utility.yul":7:133   */
+    tag_20:
+        /* "#utility.yul":44:51   */
+      0x00
+        /* "#utility.yul":84:126   */
+      0xffffffffffffffffffffffffffffffffffffffff
+        /* "#utility.yul":77:82   */
+      dup3
+        /* "#utility.yul":73:127   */
+      and
+        /* "#utility.yul":62:127   */
+      swap1
+      pop
+        /* "#utility.yul":7:133   */
+      swap2
+      swap1
+      pop
+      jump	// out
+        /* "#utility.yul":139:235   */
+    tag_21:
+        /* "#utility.yul":176:183   */
+      0x00
+        /* "#utility.yul":205:229   */
+      tag_29
+        /* "#utility.yul":223:228   */
+      dup3
+        /* "#utility.yul":205:229   */
+      tag_20
+      jump	// in
+    tag_29:
+        /* "#utility.yul":194:229   */
+      swap1
+      pop
+        /* "#utility.yul":139:235   */
+      swap2
+      swap1
+      pop
+      jump	// out
+        /* "#utility.yul":241:359   */
+    tag_22:
+        /* "#utility.yul":328:352   */
+      tag_31
+        /* "#utility.yul":346:351   */
+      dup2
+        /* "#utility.yul":328:352   */
+      tag_21
+      jump	// in
+    tag_31:
+        /* "#utility.yul":323:326   */
+      dup3
+        /* "#utility.yul":316:353   */
+      mstore
+        /* "#utility.yul":241:359   */
+      pop
+      pop
+      jump	// out
+        /* "#utility.yul":365:587   */
+    tag_10:
+        /* "#utility.yul":458:462   */
+      0x00
+        /* "#utility.yul":496:498   */
+      0x20
+        /* "#utility.yul":485:494   */
+      dup3
+        /* "#utility.yul":481:499   */
+      add
+        /* "#utility.yul":473:499   */
+      swap1
+      pop
+        /* "#utility.yul":509:580   */
+      tag_33
+        /* "#utility.yul":577:578   */
+      0x00
+        /* "#utility.yul":566:575   */
+      dup4
+        /* "#utility.yul":562:579   */
+      add
+        /* "#utility.yul":553:559   */
+      dup5
+        /* "#utility.yul":509:580   */
+      tag_22
+      jump	// in
+    tag_33:
+        /* "#utility.yul":365:587   */
+      swap3
+      swap2
+      pop
+      pop
+      jump	// out
+        /* "#utility.yul":593:762   */
+    tag_23:
+        /* "#utility.yul":677:688   */
+      0x00
+        /* "#utility.yul":711:717   */
+      dup3
+        /* "#utility.yul":706:709   */
+      dup3
+        /* "#utility.yul":699:718   */
+      mstore
+        /* "#utility.yul":751:755   */
+      0x20
+        /* "#utility.yul":746:749   */
+      dup3
+        /* "#utility.yul":742:756   */
+      add
+        /* "#utility.yul":727:756   */
+      swap1
+      pop
+        /* "#utility.yul":593:762   */
+      swap3
+      swap2
+      pop
+      pop
+      jump	// out
+        /* "#utility.yul":768:950   */
+    tag_24:
+        /* "#utility.yul":908:942   */
+      0x4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572
+        /* "#utility.yul":904:905   */
+      0x00
+        /* "#utility.yul":896:902   */
+      dup3
+        /* "#utility.yul":892:906   */
+      add
+        /* "#utility.yul":885:943   */
+      mstore
+        /* "#utility.yul":768:950   */
+      pop
+      jump	// out
+        /* "#utility.yul":956:1322   */
+    tag_25:
+        /* "#utility.yul":1098:1101   */
+      0x00
+        /* "#utility.yul":1119:1186   */
+      tag_37
+        /* "#utility.yul":1183:1185   */
+      0x20
+        /* "#utility.yul":1178:1181   */
+      dup4
+        /* "#utility.yul":1119:1186   */
+      tag_23
+      jump	// in
+    tag_37:
+        /* "#utility.yul":1112:1186   */
+      swap2
+      pop
+        /* "#utility.yul":1195:1288   */
+      tag_38
+        /* "#utility.yul":1284:1287   */
+      dup3
+        /* "#utility.yul":1195:1288   */
+      tag_24
+      jump	// in
+    tag_38:
+        /* "#utility.yul":1313:1315   */
+      0x20
+        /* "#utility.yul":1308:1311   */
+      dup3
+        /* "#utility.yul":1304:1316   */
+      add
+        /* "#utility.yul":1297:1316   */
+      swap1
+      pop
+        /* "#utility.yul":956:1322   */
+      swap2
+      swap1
+      pop
+      jump	// out
+        /* "#utility.yul":1328:1747   */
+    tag_16:
+        /* "#utility.yul":1494:1498   */
+      0x00
+        /* "#utility.yul":1532:1534   */
+      0x20
+        /* "#utility.yul":1521:1530   */
+      dup3
+        /* "#utility.yul":1517:1535   */
+      add
+        /* "#utility.yul":1509:1535   */
+      swap1
+      pop
+        /* "#utility.yul":1581:1590   */
+      dup2
+        /* "#utility.yul":1575:1579   */
+      dup2
+        /* "#utility.yul":1571:1591   */
+      sub
+        /* "#utility.yul":1567:1568   */
+      0x00
+        /* "#utility.yul":1556:1565   */
+      dup4
+        /* "#utility.yul":1552:1569   */
+      add
+        /* "#utility.yul":1545:1592   */
+      mstore
+        /* "#utility.yul":1609:1740   */
+      tag_40
+        /* "#utility.yul":1735:1739   */
+      dup2
+        /* "#utility.yul":1609:1740   */
+      tag_25
+      jump	// in
+    tag_40:
+        /* "#utility.yul":1601:1740   */
+      swap1
+      pop
+        /* "#utility.yul":1328:1747   */
+      swap2
+      swap1
+      pop
+      jump	// out
+}
