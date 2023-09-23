@@ -105,7 +105,6 @@ contract Ownable is Context {
     }
 }
 
-
 contract ECHAT is Context, IERC20, Ownable {
     using SafeMath for uint256;
 

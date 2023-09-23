@@ -1,8 +1,8 @@
-    /* "contracts/RealExample.sol":3470:10744  contract ECHAT is Context, IERC20, Ownable {... */
+    /* "contracts/RealExample.sol":3468:10742  contract ECHAT is Context, IERC20, Ownable {... */
   mstore(0x40, 0x80)
-    /* "contracts/RealExample.sol":3902:3907  false */
+    /* "contracts/RealExample.sol":3900:3905  false */
   0x00
-    /* "contracts/RealExample.sol":3878:3907  bool private swapping = false */
+    /* "contracts/RealExample.sol":3876:3905  bool private swapping = false */
   0x02
   exp(0x0100, 0x15)
   dup2
@@ -21,9 +21,9 @@
   swap1
   sstore
   pop
-    /* "contracts/RealExample.sol":3941:3946  false */
+    /* "contracts/RealExample.sol":3939:3944  false */
   0x00
-    /* "contracts/RealExample.sol":3914:3946  bool private swapEnabled = false */
+    /* "contracts/RealExample.sol":3912:3944  bool private swapEnabled = false */
   0x02
   exp(0x0100, 0x16)
   dup2
@@ -42,9 +42,9 @@
   swap1
   sstore
   pop
-    /* "contracts/RealExample.sol":3997:4039  0xB165E2Ffc7D7F7bc7c455B1b93f62987783341d1 */
+    /* "contracts/RealExample.sol":3995:4037  0xB165E2Ffc7D7F7bc7c455B1b93f62987783341d1 */
   0xb165e2ffc7d7f7bc7c455b1b93f62987783341d1
-    /* "contracts/RealExample.sol":3953:4040  address payable private feeWallet = payable(0xB165E2Ffc7D7F7bc7c455B1b93f62987783341d1) */
+    /* "contracts/RealExample.sol":3951:4038  address payable private feeWallet = payable(0xB165E2Ffc7D7F7bc7c455B1b93f62987783341d1) */
   0x03
   exp(0x0100, 0x00)
   dup2
@@ -63,139 +63,139 @@
   swap1
   sstore
   pop
-    /* "contracts/RealExample.sol":4104:4105  1 */
+    /* "contracts/RealExample.sol":4102:4103  1 */
   0x01
-    /* "contracts/RealExample.sol":4075:4105  uint256 private _finalBuyTax=1 */
+    /* "contracts/RealExample.sol":4073:4103  uint256 private _finalBuyTax=1 */
   0x05
   sstore
-    /* "contracts/RealExample.sol":4142:4143  1 */
+    /* "contracts/RealExample.sol":4140:4141  1 */
   0x01
-    /* "contracts/RealExample.sol":4112:4143  uint256 private _finalSellTax=1 */
+    /* "contracts/RealExample.sol":4110:4141  uint256 private _finalSellTax=1 */
   0x06
   sstore
-    /* "contracts/RealExample.sol":4185:4187  16 */
+    /* "contracts/RealExample.sol":4183:4185  16 */
   0x10
-    /* "contracts/RealExample.sol":4150:4187  uint256 private _preventSwapBefore=16 */
+    /* "contracts/RealExample.sol":4148:4185  uint256 private _preventSwapBefore=16 */
   0x07
   sstore
-    /* "contracts/RealExample.sol":4225:4227  16 */
+    /* "contracts/RealExample.sol":4223:4225  16 */
   0x10
-    /* "contracts/RealExample.sol":4194:4227  uint256 private _initialBuyTax=16 */
+    /* "contracts/RealExample.sol":4192:4225  uint256 private _initialBuyTax=16 */
   0x08
   sstore
-    /* "contracts/RealExample.sol":4266:4268  16 */
+    /* "contracts/RealExample.sol":4264:4266  16 */
   0x10
-    /* "contracts/RealExample.sol":4234:4268  uint256 private _initialSellTax=16 */
+    /* "contracts/RealExample.sol":4232:4266  uint256 private _initialSellTax=16 */
   0x09
   sstore
-    /* "contracts/RealExample.sol":4307:4309  16 */
+    /* "contracts/RealExample.sol":4305:4307  16 */
   0x10
-    /* "contracts/RealExample.sol":4275:4309  uint256 private _reduceBuyTaxAt=16 */
+    /* "contracts/RealExample.sol":4273:4307  uint256 private _reduceBuyTaxAt=16 */
   0x0a
   sstore
-    /* "contracts/RealExample.sol":4349:4351  16 */
+    /* "contracts/RealExample.sol":4347:4349  16 */
   0x10
-    /* "contracts/RealExample.sol":4316:4351  uint256 private _reduceSellTaxAt=16 */
+    /* "contracts/RealExample.sol":4314:4349  uint256 private _reduceSellTaxAt=16 */
   0x0b
   sstore
-    /* "contracts/RealExample.sol":4384:4385  0 */
+    /* "contracts/RealExample.sol":4382:4383  0 */
   0x00
-    /* "contracts/RealExample.sol":4358:4385  uint256 private numBuyers=0 */
+    /* "contracts/RealExample.sol":4356:4383  uint256 private numBuyers=0 */
   0x0c
   sstore
-    /* "contracts/RealExample.sol":3690:3691  9 */
+    /* "contracts/RealExample.sol":3688:3689  9 */
   0x09
-    /* "contracts/RealExample.sol":4613:4615  10 */
+    /* "contracts/RealExample.sol":4611:4613  10 */
   0x0a
-    /* "contracts/RealExample.sol":4613:4626  10**_decimals */
+    /* "contracts/RealExample.sol":4611:4624  10**_decimals */
   tag_1
   swap2
   swap1
   tag_2
   jump	// in
 tag_1:
-    /* "contracts/RealExample.sol":4609:4610  0 */
+    /* "contracts/RealExample.sol":4607:4608  0 */
   0x00
-    /* "contracts/RealExample.sol":4609:4626  0 * 10**_decimals */
+    /* "contracts/RealExample.sol":4607:4624  0 * 10**_decimals */
   tag_3
   swap2
   swap1
   tag_4
   jump	// in
 tag_3:
-    /* "contracts/RealExample.sol":4575:4626  uint256 public feeSwapThreshold = 0 * 10**_decimals */
+    /* "contracts/RealExample.sol":4573:4624  uint256 public feeSwapThreshold = 0 * 10**_decimals */
   0x10
   sstore
-    /* "contracts/RealExample.sol":3690:3691  9 */
+    /* "contracts/RealExample.sol":3688:3689  9 */
   0x09
-    /* "contracts/RealExample.sol":4677:4679  10 */
+    /* "contracts/RealExample.sol":4675:4677  10 */
   0x0a
-    /* "contracts/RealExample.sol":4677:4690  10**_decimals */
+    /* "contracts/RealExample.sol":4675:4688  10**_decimals */
   tag_5
   swap2
   swap1
   tag_2
   jump	// in
 tag_5:
-    /* "contracts/RealExample.sol":4663:4674  1 * 10 ** 7 */
+    /* "contracts/RealExample.sol":4661:4672  1 * 10 ** 7 */
   0x989680
-    /* "contracts/RealExample.sol":4663:4690  1 * 10 ** 7 * 10**_decimals */
+    /* "contracts/RealExample.sol":4661:4688  1 * 10 ** 7 * 10**_decimals */
   tag_6
   swap2
   swap1
   tag_4
   jump	// in
 tag_6:
-    /* "contracts/RealExample.sol":4633:4690  uint256 public feeSwapLimit = 1 * 10 ** 7 * 10**_decimals */
+    /* "contracts/RealExample.sol":4631:4688  uint256 public feeSwapLimit = 1 * 10 ** 7 * 10**_decimals */
   0x11
   sstore
-    /* "contracts/RealExample.sol":3690:3691  9 */
+    /* "contracts/RealExample.sol":3688:3689  9 */
   0x09
-    /* "contracts/RealExample.sol":4742:4744  10 */
+    /* "contracts/RealExample.sol":4740:4742  10 */
   0x0a
-    /* "contracts/RealExample.sol":4742:4755  10**_decimals */
+    /* "contracts/RealExample.sol":4740:4753  10**_decimals */
   tag_7
   swap2
   swap1
   tag_2
   jump	// in
 tag_7:
-    /* "contracts/RealExample.sol":4727:4739  30 * 10 ** 6 */
+    /* "contracts/RealExample.sol":4725:4737  30 * 10 ** 6 */
   0x01c9c380
-    /* "contracts/RealExample.sol":4727:4755  30 * 10 ** 6 * 10**_decimals */
+    /* "contracts/RealExample.sol":4725:4753  30 * 10 ** 6 * 10**_decimals */
   tag_8
   swap2
   swap1
   tag_4
   jump	// in
 tag_8:
-    /* "contracts/RealExample.sol":4697:4755  uint256 public mTransaction = 30 * 10 ** 6 * 10**_decimals */
+    /* "contracts/RealExample.sol":4695:4753  uint256 public mTransaction = 30 * 10 ** 6 * 10**_decimals */
   0x12
   sstore
-    /* "contracts/RealExample.sol":3690:3691  9 */
+    /* "contracts/RealExample.sol":3688:3689  9 */
   0x09
-    /* "contracts/RealExample.sol":4806:4808  10 */
+    /* "contracts/RealExample.sol":4804:4806  10 */
   0x0a
-    /* "contracts/RealExample.sol":4806:4819  10**_decimals */
+    /* "contracts/RealExample.sol":4804:4817  10**_decimals */
   tag_9
   swap2
   swap1
   tag_2
   jump	// in
 tag_9:
-    /* "contracts/RealExample.sol":4791:4803  30 * 10 ** 6 */
+    /* "contracts/RealExample.sol":4789:4801  30 * 10 ** 6 */
   0x01c9c380
-    /* "contracts/RealExample.sol":4791:4819  30 * 10 ** 6 * 10**_decimals */
+    /* "contracts/RealExample.sol":4789:4817  30 * 10 ** 6 * 10**_decimals */
   tag_10
   swap2
   swap1
   tag_4
   jump	// in
 tag_10:
-    /* "contracts/RealExample.sol":4762:4819  uint256 public mWalletSize = 30 * 10 ** 6 * 10**_decimals */
+    /* "contracts/RealExample.sol":4760:4817  uint256 public mWalletSize = 30 * 10 ** 6 * 10**_decimals */
   0x13
   sstore
-    /* "contracts/RealExample.sol":4980:5192  constructor () {... */
+    /* "contracts/RealExample.sol":4978:5190  constructor () {... */
   callvalue
   dup1
   iszero
@@ -264,40 +264,40 @@ tag_15:
   log3
     /* "contracts/RealExample.sol":2952:3091  {... */
   pop
-    /* "contracts/RealExample.sol":3690:3691  9 */
+    /* "contracts/RealExample.sol":3688:3689  9 */
   0x09
-    /* "contracts/RealExample.sol":3748:3750  10 */
+    /* "contracts/RealExample.sol":3746:3748  10 */
   0x0a
-    /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+    /* "contracts/RealExample.sol":3746:3759  10**_decimals */
   tag_18
   swap2
   swap1
   tag_2
   jump	// in
 tag_18:
-    /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+    /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
   0x3b9aca00
-    /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+    /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
   tag_19
   swap2
   swap1
   tag_4
   jump	// in
 tag_19:
-    /* "contracts/RealExample.sol":5006:5015  _balances */
+    /* "contracts/RealExample.sol":5004:5013  _balances */
   0x0d
-    /* "contracts/RealExample.sol":5006:5029  _balances[_msgSender()] */
+    /* "contracts/RealExample.sol":5004:5027  _balances[_msgSender()] */
   0x00
-    /* "contracts/RealExample.sol":5016:5028  _msgSender() */
+    /* "contracts/RealExample.sol":5014:5026  _msgSender() */
   tag_20
-    /* "contracts/RealExample.sol":5016:5026  _msgSender */
+    /* "contracts/RealExample.sol":5014:5024  _msgSender */
   shl(0x20, tag_16)
-    /* "contracts/RealExample.sol":5016:5028  _msgSender() */
+    /* "contracts/RealExample.sol":5014:5026  _msgSender() */
   0x20
   shr
   jump	// in
 tag_20:
-    /* "contracts/RealExample.sol":5006:5029  _balances[_msgSender()] */
+    /* "contracts/RealExample.sol":5004:5027  _balances[_msgSender()] */
   0xffffffffffffffffffffffffffffffffffffffff
   and
   0xffffffffffffffffffffffffffffffffffffffff
@@ -313,27 +313,27 @@ tag_20:
   add
   0x00
   keccak256
-    /* "contracts/RealExample.sol":5006:5044  _balances[_msgSender()] = _totalSupply */
+    /* "contracts/RealExample.sol":5004:5042  _balances[_msgSender()] = _totalSupply */
   dup2
   swap1
   sstore
   pop
-    /* "contracts/RealExample.sol":5076:5080  true */
+    /* "contracts/RealExample.sol":5074:5078  true */
   0x01
-    /* "contracts/RealExample.sol":5055:5064  isSpecial */
+    /* "contracts/RealExample.sol":5053:5062  isSpecial */
   0x0f
-    /* "contracts/RealExample.sol":5055:5073  isSpecial[owner()] */
+    /* "contracts/RealExample.sol":5053:5071  isSpecial[owner()] */
   0x00
-    /* "contracts/RealExample.sol":5065:5072  owner() */
+    /* "contracts/RealExample.sol":5063:5070  owner() */
   tag_21
-    /* "contracts/RealExample.sol":5065:5070  owner */
+    /* "contracts/RealExample.sol":5063:5068  owner */
   shl(0x20, tag_22)
-    /* "contracts/RealExample.sol":5065:5072  owner() */
+    /* "contracts/RealExample.sol":5063:5070  owner() */
   0x20
   shr
   jump	// in
 tag_21:
-    /* "contracts/RealExample.sol":5055:5073  isSpecial[owner()] */
+    /* "contracts/RealExample.sol":5053:5071  isSpecial[owner()] */
   0xffffffffffffffffffffffffffffffffffffffff
   and
   0xffffffffffffffffffffffffffffffffffffffff
@@ -350,7 +350,7 @@ tag_21:
   0x00
   keccak256
   0x00
-    /* "contracts/RealExample.sol":5055:5080  isSpecial[owner()] = true */
+    /* "contracts/RealExample.sol":5053:5078  isSpecial[owner()] = true */
   0x0100
   exp
   dup2
@@ -369,13 +369,13 @@ tag_21:
   swap1
   sstore
   pop
-    /* "contracts/RealExample.sol":5114:5118  true */
+    /* "contracts/RealExample.sol":5112:5116  true */
   0x01
-    /* "contracts/RealExample.sol":5091:5100  isSpecial */
+    /* "contracts/RealExample.sol":5089:5098  isSpecial */
   0x0f
-    /* "contracts/RealExample.sol":5091:5111  isSpecial[feeWallet] */
+    /* "contracts/RealExample.sol":5089:5109  isSpecial[feeWallet] */
   0x00
-    /* "contracts/RealExample.sol":5101:5110  feeWallet */
+    /* "contracts/RealExample.sol":5099:5108  feeWallet */
   0x03
   0x00
   swap1
@@ -387,7 +387,7 @@ tag_21:
   div
   0xffffffffffffffffffffffffffffffffffffffff
   and
-    /* "contracts/RealExample.sol":5091:5111  isSpecial[feeWallet] */
+    /* "contracts/RealExample.sol":5089:5109  isSpecial[feeWallet] */
   0xffffffffffffffffffffffffffffffffffffffff
   and
   0xffffffffffffffffffffffffffffffffffffffff
@@ -404,7 +404,7 @@ tag_21:
   0x00
   keccak256
   0x00
-    /* "contracts/RealExample.sol":5091:5118  isSpecial[feeWallet] = true */
+    /* "contracts/RealExample.sol":5089:5116  isSpecial[feeWallet] = true */
   0x0100
   exp
   dup2
@@ -423,45 +423,45 @@ tag_21:
   swap1
   sstore
   pop
-    /* "contracts/RealExample.sol":5157:5169  _msgSender() */
+    /* "contracts/RealExample.sol":5155:5167  _msgSender() */
   tag_23
-    /* "contracts/RealExample.sol":5157:5167  _msgSender */
+    /* "contracts/RealExample.sol":5155:5165  _msgSender */
   shl(0x20, tag_16)
-    /* "contracts/RealExample.sol":5157:5169  _msgSender() */
+    /* "contracts/RealExample.sol":5155:5167  _msgSender() */
   0x20
   shr
   jump	// in
 tag_23:
-    /* "contracts/RealExample.sol":5136:5184  Transfer(address(0), _msgSender(), _totalSupply) */
+    /* "contracts/RealExample.sol":5134:5182  Transfer(address(0), _msgSender(), _totalSupply) */
   0xffffffffffffffffffffffffffffffffffffffff
   and
-    /* "contracts/RealExample.sol":5153:5154  0 */
+    /* "contracts/RealExample.sol":5151:5152  0 */
   0x00
-    /* "contracts/RealExample.sol":5136:5184  Transfer(address(0), _msgSender(), _totalSupply) */
+    /* "contracts/RealExample.sol":5134:5182  Transfer(address(0), _msgSender(), _totalSupply) */
   0xffffffffffffffffffffffffffffffffffffffff
   and
   0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef
-    /* "contracts/RealExample.sol":3690:3691  9 */
+    /* "contracts/RealExample.sol":3688:3689  9 */
   0x09
-    /* "contracts/RealExample.sol":3748:3750  10 */
+    /* "contracts/RealExample.sol":3746:3748  10 */
   0x0a
-    /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+    /* "contracts/RealExample.sol":3746:3759  10**_decimals */
   tag_24
   swap2
   swap1
   tag_2
   jump	// in
 tag_24:
-    /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+    /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
   0x3b9aca00
-    /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+    /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
   tag_25
   swap2
   swap1
   tag_4
   jump	// in
 tag_25:
-    /* "contracts/RealExample.sol":5136:5184  Transfer(address(0), _msgSender(), _totalSupply) */
+    /* "contracts/RealExample.sol":5134:5182  Transfer(address(0), _msgSender(), _totalSupply) */
   mload(0x40)
   tag_26
   swap2
@@ -475,7 +475,7 @@ tag_26:
   sub
   swap1
   log3
-    /* "contracts/RealExample.sol":3470:10744  contract ECHAT is Context, IERC20, Ownable {... */
+    /* "contracts/RealExample.sol":3468:10742  contract ECHAT is Context, IERC20, Ownable {... */
   jump(tag_28)
     /* "contracts/RealExample.sol":1239:1337  function _msgSender() internal view virtual returns (address) {... */
 tag_16:
@@ -1090,7 +1090,7 @@ tag_80:
   pop
   pop
   jump	// out
-    /* "contracts/RealExample.sol":3470:10744  contract ECHAT is Context, IERC20, Ownable {... */
+    /* "contracts/RealExample.sol":3468:10742  contract ECHAT is Context, IERC20, Ownable {... */
 tag_28:
   dataSize(sub_0)
   dup1
@@ -1102,7 +1102,7 @@ tag_28:
 stop
 
 sub_0: assembly {
-        /* "contracts/RealExample.sol":3470:10744  contract ECHAT is Context, IERC20, Ownable {... */
+        /* "contracts/RealExample.sol":3468:10742  contract ECHAT is Context, IERC20, Ownable {... */
       mstore(0x40, 0x80)
       jumpi(tag_1, lt(calldatasize, 0x04))
       shr(0xe0, calldataload(0x00))
@@ -1220,7 +1220,7 @@ sub_0: assembly {
       0x00
       dup1
       revert
-        /* "contracts/RealExample.sol":5200:5283  function name() public pure returns (string memory) {... */
+        /* "contracts/RealExample.sol":5198:5281  function name() public pure returns (string memory) {... */
     tag_3:
       callvalue
       dup1
@@ -1249,7 +1249,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":6626:6787  function approve(address spender, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":6624:6785  function approve(address spender, uint256 amount) public override returns (bool) {... */
     tag_4:
       callvalue
       dup1
@@ -1291,7 +1291,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":5785:5885  function totalSupply() public pure override returns (uint256) {... */
+        /* "contracts/RealExample.sol":5783:5883  function totalSupply() public pure override returns (uint256) {... */
     tag_5:
       callvalue
       dup1
@@ -1320,7 +1320,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":6206:6519  function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":6204:6517  function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {... */
     tag_6:
       callvalue
       dup1
@@ -1362,7 +1362,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":4633:4690  uint256 public feeSwapLimit = 1 * 10 ** 7 * 10**_decimals */
+        /* "contracts/RealExample.sol":4631:4688  uint256 public feeSwapLimit = 1 * 10 ** 7 * 10**_decimals */
     tag_7:
       callvalue
       dup1
@@ -1391,7 +1391,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":5988:6071  function decimals() public pure returns (uint8) {... */
+        /* "contracts/RealExample.sol":5986:6069  function decimals() public pure returns (uint8) {... */
     tag_8:
       callvalue
       dup1
@@ -1420,7 +1420,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":4697:4755  uint256 public mTransaction = 30 * 10 ** 6 * 10**_decimals */
+        /* "contracts/RealExample.sol":4695:4753  uint256 public mTransaction = 30 * 10 ** 6 * 10**_decimals */
     tag_9:
       callvalue
       dup1
@@ -1449,7 +1449,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":4762:4819  uint256 public mWalletSize = 30 * 10 ** 6 * 10**_decimals */
+        /* "contracts/RealExample.sol":4760:4817  uint256 public mWalletSize = 30 * 10 ** 6 * 10**_decimals */
     tag_10:
       callvalue
       dup1
@@ -1478,7 +1478,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":6079:6198  function balanceOf(address account) public view override returns (uint256) {... */
+        /* "contracts/RealExample.sol":6077:6196  function balanceOf(address account) public view override returns (uint256) {... */
     tag_11:
       callvalue
       dup1
@@ -1537,7 +1537,7 @@ sub_0: assembly {
       jump	// in
     tag_72:
       stop
-        /* "contracts/RealExample.sol":9574:9745  function removeLimits() external onlyOwner{... */
+        /* "contracts/RealExample.sol":9572:9743  function removeLimits() external onlyOwner{... */
     tag_13:
       callvalue
       dup1
@@ -1583,7 +1583,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":5893:5980  function symbol() public pure returns (string memory) {... */
+        /* "contracts/RealExample.sol":5891:5978  function symbol() public pure returns (string memory) {... */
     tag_15:
       callvalue
       dup1
@@ -1612,7 +1612,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":9753:9920  function transfer(address recipient, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":9751:9918  function transfer(address recipient, uint256 amount) public override returns (bool) {... */
     tag_16:
       callvalue
       dup1
@@ -1654,7 +1654,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":8895:9566  function openTrading() external onlyOwner() {... */
+        /* "contracts/RealExample.sol":8893:9564  function openTrading() external onlyOwner() {... */
     tag_17:
       callvalue
       dup1
@@ -1671,7 +1671,7 @@ sub_0: assembly {
       jump	// in
     tag_92:
       stop
-        /* "contracts/RealExample.sol":5634:5777  function allowance(address owner, address spender) public view override returns (uint256) {... */
+        /* "contracts/RealExample.sol":5632:5775  function allowance(address owner, address spender) public view override returns (uint256) {... */
     tag_18:
       callvalue
       dup1
@@ -1713,7 +1713,7 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":4575:4626  uint256 public feeSwapThreshold = 0 * 10**_decimals */
+        /* "contracts/RealExample.sol":4573:4624  uint256 public feeSwapThreshold = 0 * 10**_decimals */
     tag_19:
       callvalue
       dup1
@@ -1742,11 +1742,11 @@ sub_0: assembly {
       sub
       swap1
       return
-        /* "contracts/RealExample.sol":5200:5283  function name() public pure returns (string memory) {... */
+        /* "contracts/RealExample.sol":5198:5281  function name() public pure returns (string memory) {... */
     tag_27:
-        /* "contracts/RealExample.sol":5237:5250  string memory */
+        /* "contracts/RealExample.sol":5235:5248  string memory */
       0x60
-        /* "contracts/RealExample.sol":5270:5275  _name */
+        /* "contracts/RealExample.sol":5268:5273  _name */
       mload(0x40)
       dup1
       0x40
@@ -1763,108 +1763,108 @@ sub_0: assembly {
       dup2
       mstore
       pop
-        /* "contracts/RealExample.sol":5263:5275  return _name */
+        /* "contracts/RealExample.sol":5261:5273  return _name */
       swap1
       pop
-        /* "contracts/RealExample.sol":5200:5283  function name() public pure returns (string memory) {... */
+        /* "contracts/RealExample.sol":5198:5281  function name() public pure returns (string memory) {... */
       swap1
       jump	// out
-        /* "contracts/RealExample.sol":6626:6787  function approve(address spender, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":6624:6785  function approve(address spender, uint256 amount) public override returns (bool) {... */
     tag_34:
-        /* "contracts/RealExample.sol":6701:6705  bool */
+        /* "contracts/RealExample.sol":6699:6703  bool */
       0x00
-        /* "contracts/RealExample.sol":6718:6757  _approve(_msgSender(), spender, amount) */
+        /* "contracts/RealExample.sol":6716:6755  _approve(_msgSender(), spender, amount) */
       tag_106
-        /* "contracts/RealExample.sol":6727:6739  _msgSender() */
+        /* "contracts/RealExample.sol":6725:6737  _msgSender() */
       tag_107
-        /* "contracts/RealExample.sol":6727:6737  _msgSender */
+        /* "contracts/RealExample.sol":6725:6735  _msgSender */
       tag_108
-        /* "contracts/RealExample.sol":6727:6739  _msgSender() */
+        /* "contracts/RealExample.sol":6725:6737  _msgSender() */
       jump	// in
     tag_107:
-        /* "contracts/RealExample.sol":6741:6748  spender */
+        /* "contracts/RealExample.sol":6739:6746  spender */
       dup5
-        /* "contracts/RealExample.sol":6750:6756  amount */
+        /* "contracts/RealExample.sol":6748:6754  amount */
       dup5
-        /* "contracts/RealExample.sol":6718:6726  _approve */
+        /* "contracts/RealExample.sol":6716:6724  _approve */
       tag_109
-        /* "contracts/RealExample.sol":6718:6757  _approve(_msgSender(), spender, amount) */
+        /* "contracts/RealExample.sol":6716:6755  _approve(_msgSender(), spender, amount) */
       jump	// in
     tag_106:
-        /* "contracts/RealExample.sol":6775:6779  true */
+        /* "contracts/RealExample.sol":6773:6777  true */
       0x01
-        /* "contracts/RealExample.sol":6768:6779  return true */
+        /* "contracts/RealExample.sol":6766:6777  return true */
       swap1
       pop
-        /* "contracts/RealExample.sol":6626:6787  function approve(address spender, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":6624:6785  function approve(address spender, uint256 amount) public override returns (bool) {... */
       swap3
       swap2
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":5785:5885  function totalSupply() public pure override returns (uint256) {... */
+        /* "contracts/RealExample.sol":5783:5883  function totalSupply() public pure override returns (uint256) {... */
     tag_39:
-        /* "contracts/RealExample.sol":5838:5845  uint256 */
+        /* "contracts/RealExample.sol":5836:5843  uint256 */
       0x00
-        /* "contracts/RealExample.sol":3690:3691  9 */
+        /* "contracts/RealExample.sol":3688:3689  9 */
       0x09
-        /* "contracts/RealExample.sol":3748:3750  10 */
+        /* "contracts/RealExample.sol":3746:3748  10 */
       0x0a
-        /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+        /* "contracts/RealExample.sol":3746:3759  10**_decimals */
       tag_111
       swap2
       swap1
       tag_112
       jump	// in
     tag_111:
-        /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+        /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
       0x3b9aca00
-        /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+        /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
       tag_113
       swap2
       swap1
       tag_114
       jump	// in
     tag_113:
-        /* "contracts/RealExample.sol":5858:5877  return _totalSupply */
+        /* "contracts/RealExample.sol":5856:5875  return _totalSupply */
       swap1
       pop
-        /* "contracts/RealExample.sol":5785:5885  function totalSupply() public pure override returns (uint256) {... */
+        /* "contracts/RealExample.sol":5783:5883  function totalSupply() public pure override returns (uint256) {... */
       swap1
       jump	// out
-        /* "contracts/RealExample.sol":6206:6519  function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":6204:6517  function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {... */
     tag_46:
-        /* "contracts/RealExample.sol":6304:6308  bool */
+        /* "contracts/RealExample.sol":6302:6306  bool */
       0x00
-        /* "contracts/RealExample.sol":6321:6357  _transfer(sender, recipient, amount) */
+        /* "contracts/RealExample.sol":6319:6355  _transfer(sender, recipient, amount) */
       tag_116
-        /* "contracts/RealExample.sol":6331:6337  sender */
+        /* "contracts/RealExample.sol":6329:6335  sender */
       dup5
-        /* "contracts/RealExample.sol":6339:6348  recipient */
+        /* "contracts/RealExample.sol":6337:6346  recipient */
       dup5
-        /* "contracts/RealExample.sol":6350:6356  amount */
+        /* "contracts/RealExample.sol":6348:6354  amount */
       dup5
-        /* "contracts/RealExample.sol":6321:6330  _transfer */
+        /* "contracts/RealExample.sol":6319:6328  _transfer */
       tag_117
-        /* "contracts/RealExample.sol":6321:6357  _transfer(sender, recipient, amount) */
+        /* "contracts/RealExample.sol":6319:6355  _transfer(sender, recipient, amount) */
       jump	// in
     tag_116:
-        /* "contracts/RealExample.sol":6368:6489  _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance")) */
+        /* "contracts/RealExample.sol":6366:6487  _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance")) */
       tag_118
-        /* "contracts/RealExample.sol":6377:6383  sender */
+        /* "contracts/RealExample.sol":6375:6381  sender */
       dup5
-        /* "contracts/RealExample.sol":6385:6397  _msgSender() */
+        /* "contracts/RealExample.sol":6383:6395  _msgSender() */
       tag_119
-        /* "contracts/RealExample.sol":6385:6395  _msgSender */
+        /* "contracts/RealExample.sol":6383:6393  _msgSender */
       tag_108
-        /* "contracts/RealExample.sol":6385:6397  _msgSender() */
+        /* "contracts/RealExample.sol":6383:6395  _msgSender() */
       jump	// in
     tag_119:
-        /* "contracts/RealExample.sol":6399:6488  _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance") */
+        /* "contracts/RealExample.sol":6397:6486  _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance") */
       tag_120
-        /* "contracts/RealExample.sol":6437:6443  amount */
+        /* "contracts/RealExample.sol":6435:6441  amount */
       dup6
-        /* "contracts/RealExample.sol":6399:6488  _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance") */
+        /* "contracts/RealExample.sol":6397:6486  _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance") */
       mload(0x40)
       dup1
       0x60
@@ -1881,13 +1881,13 @@ sub_0: assembly {
       0x28
       swap2
       codecopy
-        /* "contracts/RealExample.sol":6399:6410  _allowances */
+        /* "contracts/RealExample.sol":6397:6408  _allowances */
       0x0e
-        /* "contracts/RealExample.sol":6399:6418  _allowances[sender] */
+        /* "contracts/RealExample.sol":6397:6416  _allowances[sender] */
       0x00
-        /* "contracts/RealExample.sol":6411:6417  sender */
+        /* "contracts/RealExample.sol":6409:6415  sender */
       dup12
-        /* "contracts/RealExample.sol":6399:6418  _allowances[sender] */
+        /* "contracts/RealExample.sol":6397:6416  _allowances[sender] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -1903,16 +1903,16 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":6399:6432  _allowances[sender][_msgSender()] */
+        /* "contracts/RealExample.sol":6397:6430  _allowances[sender][_msgSender()] */
       0x00
-        /* "contracts/RealExample.sol":6419:6431  _msgSender() */
+        /* "contracts/RealExample.sol":6417:6429  _msgSender() */
       tag_121
-        /* "contracts/RealExample.sol":6419:6429  _msgSender */
+        /* "contracts/RealExample.sol":6417:6427  _msgSender */
       tag_108
-        /* "contracts/RealExample.sol":6419:6431  _msgSender() */
+        /* "contracts/RealExample.sol":6417:6429  _msgSender() */
       jump	// in
     tag_121:
-        /* "contracts/RealExample.sol":6399:6432  _allowances[sender][_msgSender()] */
+        /* "contracts/RealExample.sol":6397:6430  _allowances[sender][_msgSender()] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -1929,10 +1929,10 @@ sub_0: assembly {
       0x00
       keccak256
       sload
-        /* "contracts/RealExample.sol":6399:6436  _allowances[sender][_msgSender()].sub */
+        /* "contracts/RealExample.sol":6397:6434  _allowances[sender][_msgSender()].sub */
       tag_122
       swap1
-        /* "contracts/RealExample.sol":6399:6488  _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance") */
+        /* "contracts/RealExample.sol":6397:6486  _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance") */
       swap3
       swap2
       swap1
@@ -1940,61 +1940,61 @@ sub_0: assembly {
       and
       jump	// in
     tag_120:
-        /* "contracts/RealExample.sol":6368:6376  _approve */
+        /* "contracts/RealExample.sol":6366:6374  _approve */
       tag_109
-        /* "contracts/RealExample.sol":6368:6489  _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance")) */
+        /* "contracts/RealExample.sol":6366:6487  _approve(sender, _msgSender(), _allowances[sender][_msgSender()].sub(amount, "ERC20: transfer amount exceeds allowance")) */
       jump	// in
     tag_118:
-        /* "contracts/RealExample.sol":6507:6511  true */
+        /* "contracts/RealExample.sol":6505:6509  true */
       0x01
-        /* "contracts/RealExample.sol":6500:6511  return true */
+        /* "contracts/RealExample.sol":6498:6509  return true */
       swap1
       pop
-        /* "contracts/RealExample.sol":6206:6519  function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":6204:6517  function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {... */
       swap4
       swap3
       pop
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":4633:4690  uint256 public feeSwapLimit = 1 * 10 ** 7 * 10**_decimals */
+        /* "contracts/RealExample.sol":4631:4688  uint256 public feeSwapLimit = 1 * 10 ** 7 * 10**_decimals */
     tag_50:
       sload(0x11)
       dup2
       jump	// out
-        /* "contracts/RealExample.sol":5988:6071  function decimals() public pure returns (uint8) {... */
+        /* "contracts/RealExample.sol":5986:6069  function decimals() public pure returns (uint8) {... */
     tag_54:
-        /* "contracts/RealExample.sol":6029:6034  uint8 */
+        /* "contracts/RealExample.sol":6027:6032  uint8 */
       0x00
-        /* "contracts/RealExample.sol":3690:3691  9 */
+        /* "contracts/RealExample.sol":3688:3689  9 */
       0x09
-        /* "contracts/RealExample.sol":6047:6063  return _decimals */
+        /* "contracts/RealExample.sol":6045:6061  return _decimals */
       swap1
       pop
-        /* "contracts/RealExample.sol":5988:6071  function decimals() public pure returns (uint8) {... */
+        /* "contracts/RealExample.sol":5986:6069  function decimals() public pure returns (uint8) {... */
       swap1
       jump	// out
-        /* "contracts/RealExample.sol":4697:4755  uint256 public mTransaction = 30 * 10 ** 6 * 10**_decimals */
+        /* "contracts/RealExample.sol":4695:4753  uint256 public mTransaction = 30 * 10 ** 6 * 10**_decimals */
     tag_59:
       sload(0x12)
       dup2
       jump	// out
-        /* "contracts/RealExample.sol":4762:4819  uint256 public mWalletSize = 30 * 10 ** 6 * 10**_decimals */
+        /* "contracts/RealExample.sol":4760:4817  uint256 public mWalletSize = 30 * 10 ** 6 * 10**_decimals */
     tag_63:
       sload(0x13)
       dup2
       jump	// out
-        /* "contracts/RealExample.sol":6079:6198  function balanceOf(address account) public view override returns (uint256) {... */
+        /* "contracts/RealExample.sol":6077:6196  function balanceOf(address account) public view override returns (uint256) {... */
     tag_69:
-        /* "contracts/RealExample.sol":6145:6152  uint256 */
+        /* "contracts/RealExample.sol":6143:6150  uint256 */
       0x00
-        /* "contracts/RealExample.sol":6172:6181  _balances */
+        /* "contracts/RealExample.sol":6170:6179  _balances */
       0x0d
-        /* "contracts/RealExample.sol":6172:6190  _balances[account] */
+        /* "contracts/RealExample.sol":6170:6188  _balances[account] */
       0x00
-        /* "contracts/RealExample.sol":6182:6189  account */
+        /* "contracts/RealExample.sol":6180:6187  account */
       dup4
-        /* "contracts/RealExample.sol":6172:6190  _balances[account] */
+        /* "contracts/RealExample.sol":6170:6188  _balances[account] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -2011,10 +2011,10 @@ sub_0: assembly {
       0x00
       keccak256
       sload
-        /* "contracts/RealExample.sol":6165:6190  return _balances[account] */
+        /* "contracts/RealExample.sol":6163:6188  return _balances[account] */
       swap1
       pop
-        /* "contracts/RealExample.sol":6079:6198  function balanceOf(address account) public view override returns (uint256) {... */
+        /* "contracts/RealExample.sol":6077:6196  function balanceOf(address account) public view override returns (uint256) {... */
       swap2
       swap1
       pop
@@ -2120,7 +2120,7 @@ sub_0: assembly {
       pop
         /* "contracts/RealExample.sol":3313:3461  function renounceOwnership() public virtual onlyOwner {... */
       jump	// out
-        /* "contracts/RealExample.sol":9574:9745  function removeLimits() external onlyOwner{... */
+        /* "contracts/RealExample.sol":9572:9743  function removeLimits() external onlyOwner{... */
     tag_76:
         /* "contracts/RealExample.sol":3236:3248  _msgSender() */
       tag_132
@@ -2168,83 +2168,83 @@ sub_0: assembly {
       swap1
       revert
     tag_133:
-        /* "contracts/RealExample.sol":3690:3691  9 */
+        /* "contracts/RealExample.sol":3688:3689  9 */
       0x09
-        /* "contracts/RealExample.sol":3748:3750  10 */
+        /* "contracts/RealExample.sol":3746:3748  10 */
       0x0a
-        /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+        /* "contracts/RealExample.sol":3746:3759  10**_decimals */
       tag_136
       swap2
       swap1
       tag_112
       jump	// in
     tag_136:
-        /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+        /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
       0x3b9aca00
-        /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+        /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
       tag_137
       swap2
       swap1
       tag_114
       jump	// in
     tag_137:
-        /* "contracts/RealExample.sol":9627:9639  mTransaction */
+        /* "contracts/RealExample.sol":9625:9637  mTransaction */
       0x12
-        /* "contracts/RealExample.sol":9627:9654  mTransaction = _totalSupply */
+        /* "contracts/RealExample.sol":9625:9652  mTransaction = _totalSupply */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":3690:3691  9 */
+        /* "contracts/RealExample.sol":3688:3689  9 */
       0x09
-        /* "contracts/RealExample.sol":3748:3750  10 */
+        /* "contracts/RealExample.sol":3746:3748  10 */
       0x0a
-        /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+        /* "contracts/RealExample.sol":3746:3759  10**_decimals */
       tag_138
       swap2
       swap1
       tag_112
       jump	// in
     tag_138:
-        /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+        /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
       0x3b9aca00
-        /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+        /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
       tag_139
       swap2
       swap1
       tag_114
       jump	// in
     tag_139:
-        /* "contracts/RealExample.sol":9665:9676  mWalletSize */
+        /* "contracts/RealExample.sol":9663:9674  mWalletSize */
       0x13
-        /* "contracts/RealExample.sol":9665:9689  mWalletSize=_totalSupply */
+        /* "contracts/RealExample.sol":9663:9687  mWalletSize=_totalSupply */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":9705:9737  MaxTxAmountUpdated(_totalSupply) */
+        /* "contracts/RealExample.sol":9703:9735  MaxTxAmountUpdated(_totalSupply) */
       0x947f344d56e1e8c70dc492fb94c4ddddd490c016aab685f5e7e47b2e85cb44cf
-        /* "contracts/RealExample.sol":3690:3691  9 */
+        /* "contracts/RealExample.sol":3688:3689  9 */
       0x09
-        /* "contracts/RealExample.sol":3748:3750  10 */
+        /* "contracts/RealExample.sol":3746:3748  10 */
       0x0a
-        /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+        /* "contracts/RealExample.sol":3746:3759  10**_decimals */
       tag_140
       swap2
       swap1
       tag_112
       jump	// in
     tag_140:
-        /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+        /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
       0x3b9aca00
-        /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+        /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
       tag_141
       swap2
       swap1
       tag_114
       jump	// in
     tag_141:
-        /* "contracts/RealExample.sol":9705:9737  MaxTxAmountUpdated(_totalSupply) */
+        /* "contracts/RealExample.sol":9703:9735  MaxTxAmountUpdated(_totalSupply) */
       mload(0x40)
       tag_142
       swap2
@@ -2258,7 +2258,7 @@ sub_0: assembly {
       sub
       swap1
       log1
-        /* "contracts/RealExample.sol":9574:9745  function removeLimits() external onlyOwner{... */
+        /* "contracts/RealExample.sol":9572:9743  function removeLimits() external onlyOwner{... */
       jump	// out
         /* "contracts/RealExample.sol":3099:3178  function owner() public view returns (address) {... */
     tag_79:
@@ -2282,11 +2282,11 @@ sub_0: assembly {
         /* "contracts/RealExample.sol":3099:3178  function owner() public view returns (address) {... */
       swap1
       jump	// out
-        /* "contracts/RealExample.sol":5893:5980  function symbol() public pure returns (string memory) {... */
+        /* "contracts/RealExample.sol":5891:5978  function symbol() public pure returns (string memory) {... */
     tag_84:
-        /* "contracts/RealExample.sol":5932:5945  string memory */
+        /* "contracts/RealExample.sol":5930:5943  string memory */
       0x60
-        /* "contracts/RealExample.sol":5965:5972  _symbol */
+        /* "contracts/RealExample.sol":5963:5970  _symbol */
       mload(0x40)
       dup1
       0x40
@@ -2303,46 +2303,46 @@ sub_0: assembly {
       dup2
       mstore
       pop
-        /* "contracts/RealExample.sol":5958:5972  return _symbol */
+        /* "contracts/RealExample.sol":5956:5970  return _symbol */
       swap1
       pop
-        /* "contracts/RealExample.sol":5893:5980  function symbol() public pure returns (string memory) {... */
+        /* "contracts/RealExample.sol":5891:5978  function symbol() public pure returns (string memory) {... */
       swap1
       jump	// out
-        /* "contracts/RealExample.sol":9753:9920  function transfer(address recipient, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":9751:9918  function transfer(address recipient, uint256 amount) public override returns (bool) {... */
     tag_89:
-        /* "contracts/RealExample.sol":9831:9835  bool */
+        /* "contracts/RealExample.sol":9829:9833  bool */
       0x00
-        /* "contracts/RealExample.sol":9848:9890  _transfer(_msgSender(), recipient, amount) */
+        /* "contracts/RealExample.sol":9846:9888  _transfer(_msgSender(), recipient, amount) */
       tag_146
-        /* "contracts/RealExample.sol":9858:9870  _msgSender() */
+        /* "contracts/RealExample.sol":9856:9868  _msgSender() */
       tag_147
-        /* "contracts/RealExample.sol":9858:9868  _msgSender */
+        /* "contracts/RealExample.sol":9856:9866  _msgSender */
       tag_108
-        /* "contracts/RealExample.sol":9858:9870  _msgSender() */
+        /* "contracts/RealExample.sol":9856:9868  _msgSender() */
       jump	// in
     tag_147:
-        /* "contracts/RealExample.sol":9872:9881  recipient */
+        /* "contracts/RealExample.sol":9870:9879  recipient */
       dup5
-        /* "contracts/RealExample.sol":9883:9889  amount */
+        /* "contracts/RealExample.sol":9881:9887  amount */
       dup5
-        /* "contracts/RealExample.sol":9848:9857  _transfer */
+        /* "contracts/RealExample.sol":9846:9855  _transfer */
       tag_117
-        /* "contracts/RealExample.sol":9848:9890  _transfer(_msgSender(), recipient, amount) */
+        /* "contracts/RealExample.sol":9846:9888  _transfer(_msgSender(), recipient, amount) */
       jump	// in
     tag_146:
-        /* "contracts/RealExample.sol":9908:9912  true */
+        /* "contracts/RealExample.sol":9906:9910  true */
       0x01
-        /* "contracts/RealExample.sol":9901:9912  return true */
+        /* "contracts/RealExample.sol":9899:9910  return true */
       swap1
       pop
-        /* "contracts/RealExample.sol":9753:9920  function transfer(address recipient, uint256 amount) public override returns (bool) {... */
+        /* "contracts/RealExample.sol":9751:9918  function transfer(address recipient, uint256 amount) public override returns (bool) {... */
       swap3
       swap2
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":8895:9566  function openTrading() external onlyOwner() {... */
+        /* "contracts/RealExample.sol":8893:9564  function openTrading() external onlyOwner() {... */
     tag_93:
         /* "contracts/RealExample.sol":3236:3248  _msgSender() */
       tag_149
@@ -2390,7 +2390,7 @@ sub_0: assembly {
       swap1
       revert
     tag_150:
-        /* "contracts/RealExample.sol":8959:8973  tradingStarted */
+        /* "contracts/RealExample.sol":8957:8971  tradingStarted */
       0x02
       0x14
       swap1
@@ -2402,9 +2402,9 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":8958:8973  !tradingStarted */
+        /* "contracts/RealExample.sol":8956:8971  !tradingStarted */
       iszero
-        /* "contracts/RealExample.sol":8950:9000  require(!tradingStarted,"trading is already open") */
+        /* "contracts/RealExample.sol":8948:8998  require(!tradingStarted,"trading is already open") */
       tag_153
       jumpi
       mload(0x40)
@@ -2425,12 +2425,12 @@ sub_0: assembly {
       swap1
       revert
     tag_153:
-        /* "contracts/RealExample.sol":9040:9082  0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D */
+        /* "contracts/RealExample.sol":9038:9080  0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D */
       0x7a250d5630b4cf539739df2c5dacb4c659f2488d
-        /* "contracts/RealExample.sol":9011:9020  uniRouter */
+        /* "contracts/RealExample.sol":9009:9018  uniRouter */
       0x01
       0x00
-        /* "contracts/RealExample.sol":9011:9083  uniRouter = IUniswapRouterV2(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D) */
+        /* "contracts/RealExample.sol":9009:9081  uniRouter = IUniswapRouterV2(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D) */
       0x0100
       exp
       dup2
@@ -2449,11 +2449,11 @@ sub_0: assembly {
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":9094:9151  _approve(address(this), address(uniRouter), _totalSupply) */
+        /* "contracts/RealExample.sol":9092:9149  _approve(address(this), address(uniRouter), _totalSupply) */
       tag_156
-        /* "contracts/RealExample.sol":9111:9115  this */
+        /* "contracts/RealExample.sol":9109:9113  this */
       address
-        /* "contracts/RealExample.sol":9126:9135  uniRouter */
+        /* "contracts/RealExample.sol":9124:9133  uniRouter */
       0x01
       0x00
       swap1
@@ -2465,32 +2465,32 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":3690:3691  9 */
+        /* "contracts/RealExample.sol":3688:3689  9 */
       0x09
-        /* "contracts/RealExample.sol":3748:3750  10 */
+        /* "contracts/RealExample.sol":3746:3748  10 */
       0x0a
-        /* "contracts/RealExample.sol":3748:3761  10**_decimals */
+        /* "contracts/RealExample.sol":3746:3759  10**_decimals */
       tag_157
       swap2
       swap1
       tag_112
       jump	// in
     tag_157:
-        /* "contracts/RealExample.sol":3738:3745  10 ** 9 */
+        /* "contracts/RealExample.sol":3736:3743  10 ** 9 */
       0x3b9aca00
-        /* "contracts/RealExample.sol":3738:3761  10 ** 9 * 10**_decimals */
+        /* "contracts/RealExample.sol":3736:3759  10 ** 9 * 10**_decimals */
       tag_158
       swap2
       swap1
       tag_114
       jump	// in
     tag_158:
-        /* "contracts/RealExample.sol":9094:9102  _approve */
+        /* "contracts/RealExample.sol":9092:9100  _approve */
       tag_109
-        /* "contracts/RealExample.sol":9094:9151  _approve(address(this), address(uniRouter), _totalSupply) */
+        /* "contracts/RealExample.sol":9092:9149  _approve(address(this), address(uniRouter), _totalSupply) */
       jump	// in
     tag_156:
-        /* "contracts/RealExample.sol":9191:9200  uniRouter */
+        /* "contracts/RealExample.sol":9189:9198  uniRouter */
       0x01
       0x00
       swap1
@@ -2502,11 +2502,11 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":9191:9208  uniRouter.factory */
+        /* "contracts/RealExample.sol":9189:9206  uniRouter.factory */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xc45a0155
-        /* "contracts/RealExample.sol":9191:9210  uniRouter.factory() */
+        /* "contracts/RealExample.sol":9189:9208  uniRouter.factory() */
       mload(0x40)
       dup2
       0xffffffff
@@ -2563,13 +2563,13 @@ sub_0: assembly {
       tag_162
       jump	// in
     tag_161:
-        /* "contracts/RealExample.sol":9173:9222  IUniswapFactoryV2(uniRouter.factory()).createPair */
+        /* "contracts/RealExample.sol":9171:9220  IUniswapFactoryV2(uniRouter.factory()).createPair */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xc9c65396
-        /* "contracts/RealExample.sol":9231:9235  this */
+        /* "contracts/RealExample.sol":9229:9233  this */
       address
-        /* "contracts/RealExample.sol":9238:9247  uniRouter */
+        /* "contracts/RealExample.sol":9236:9245  uniRouter */
       0x01
       0x00
       swap1
@@ -2581,11 +2581,11 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":9238:9252  uniRouter.WETH */
+        /* "contracts/RealExample.sol":9236:9250  uniRouter.WETH */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xad5c4648
-        /* "contracts/RealExample.sol":9238:9254  uniRouter.WETH() */
+        /* "contracts/RealExample.sol":9236:9252  uniRouter.WETH() */
       mload(0x40)
       dup2
       0xffffffff
@@ -2642,7 +2642,7 @@ sub_0: assembly {
       tag_162
       jump	// in
     tag_165:
-        /* "contracts/RealExample.sol":9173:9255  IUniswapFactoryV2(uniRouter.factory()).createPair(address(this), uniRouter.WETH()) */
+        /* "contracts/RealExample.sol":9171:9253  IUniswapFactoryV2(uniRouter.factory()).createPair(address(this), uniRouter.WETH()) */
       mload(0x40)
       dup4
       0xffffffff
@@ -2707,10 +2707,10 @@ sub_0: assembly {
       tag_162
       jump	// in
     tag_170:
-        /* "contracts/RealExample.sol":9162:9170  pairAddr */
+        /* "contracts/RealExample.sol":9160:9168  pairAddr */
       0x02
       0x00
-        /* "contracts/RealExample.sol":9162:9255  pairAddr = IUniswapFactoryV2(uniRouter.factory()).createPair(address(this), uniRouter.WETH()) */
+        /* "contracts/RealExample.sol":9160:9253  pairAddr = IUniswapFactoryV2(uniRouter.factory()).createPair(address(this), uniRouter.WETH()) */
       0x0100
       exp
       dup2
@@ -2729,7 +2729,7 @@ sub_0: assembly {
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":9266:9275  uniRouter */
+        /* "contracts/RealExample.sol":9264:9273  uniRouter */
       0x01
       0x00
       swap1
@@ -2741,37 +2741,37 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":9266:9291  uniRouter.addLiquidityETH */
+        /* "contracts/RealExample.sol":9264:9289  uniRouter.addLiquidityETH */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xf305d719
-        /* "contracts/RealExample.sol":9299:9320  address(this).balance */
+        /* "contracts/RealExample.sol":9297:9318  address(this).balance */
       selfbalance
-        /* "contracts/RealExample.sol":9330:9334  this */
+        /* "contracts/RealExample.sol":9328:9332  this */
       address
-        /* "contracts/RealExample.sol":9336:9360  balanceOf(address(this)) */
+        /* "contracts/RealExample.sol":9334:9358  balanceOf(address(this)) */
       tag_171
-        /* "contracts/RealExample.sol":9354:9358  this */
+        /* "contracts/RealExample.sol":9352:9356  this */
       address
-        /* "contracts/RealExample.sol":9336:9345  balanceOf */
+        /* "contracts/RealExample.sol":9334:9343  balanceOf */
       tag_69
-        /* "contracts/RealExample.sol":9336:9360  balanceOf(address(this)) */
+        /* "contracts/RealExample.sol":9334:9358  balanceOf(address(this)) */
       jump	// in
     tag_171:
-        /* "contracts/RealExample.sol":9361:9362  0 */
+        /* "contracts/RealExample.sol":9359:9360  0 */
       0x00
-        /* "contracts/RealExample.sol":9363:9364  0 */
+        /* "contracts/RealExample.sol":9361:9362  0 */
       dup1
-        /* "contracts/RealExample.sol":9365:9372  owner() */
+        /* "contracts/RealExample.sol":9363:9370  owner() */
       tag_172
-        /* "contracts/RealExample.sol":9365:9370  owner */
+        /* "contracts/RealExample.sol":9363:9368  owner */
       tag_79
-        /* "contracts/RealExample.sol":9365:9372  owner() */
+        /* "contracts/RealExample.sol":9363:9370  owner() */
       jump	// in
     tag_172:
-        /* "contracts/RealExample.sol":9373:9388  block.timestamp */
+        /* "contracts/RealExample.sol":9371:9386  block.timestamp */
       timestamp
-        /* "contracts/RealExample.sol":9266:9389  uniRouter.addLiquidityETH{value: address(this).balance}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp) */
+        /* "contracts/RealExample.sol":9264:9387  uniRouter.addLiquidityETH{value: address(this).balance}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp) */
       mload(0x40)
       dup9
       0xffffffff
@@ -2844,7 +2844,7 @@ sub_0: assembly {
       pop
       pop
       pop
-        /* "contracts/RealExample.sol":9407:9415  pairAddr */
+        /* "contracts/RealExample.sol":9405:9413  pairAddr */
       0x02
       0x00
       swap1
@@ -2856,11 +2856,11 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":9400:9424  IERC20(pairAddr).approve */
+        /* "contracts/RealExample.sol":9398:9422  IERC20(pairAddr).approve */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0x095ea7b3
-        /* "contracts/RealExample.sol":9433:9442  uniRouter */
+        /* "contracts/RealExample.sol":9431:9440  uniRouter */
       0x01
       0x00
       swap1
@@ -2872,9 +2872,9 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":9445:9459  type(uint).max */
+        /* "contracts/RealExample.sol":9443:9457  type(uint).max */
       0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-        /* "contracts/RealExample.sol":9400:9460  IERC20(pairAddr).approve(address(uniRouter), type(uint).max) */
+        /* "contracts/RealExample.sol":9398:9458  IERC20(pairAddr).approve(address(uniRouter), type(uint).max) */
       mload(0x40)
       dup4
       0xffffffff
@@ -2940,12 +2940,12 @@ sub_0: assembly {
       jump	// in
     tag_183:
       pop
-        /* "contracts/RealExample.sol":9485:9489  true */
+        /* "contracts/RealExample.sol":9483:9487  true */
       0x01
-        /* "contracts/RealExample.sol":9471:9482  swapEnabled */
+        /* "contracts/RealExample.sol":9469:9480  swapEnabled */
       0x02
       0x16
-        /* "contracts/RealExample.sol":9471:9489  swapEnabled = true */
+        /* "contracts/RealExample.sol":9469:9487  swapEnabled = true */
       0x0100
       exp
       dup2
@@ -2964,12 +2964,12 @@ sub_0: assembly {
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":9517:9521  true */
+        /* "contracts/RealExample.sol":9515:9519  true */
       0x01
-        /* "contracts/RealExample.sol":9500:9514  tradingStarted */
+        /* "contracts/RealExample.sol":9498:9512  tradingStarted */
       0x02
       0x14
-        /* "contracts/RealExample.sol":9500:9521  tradingStarted = true */
+        /* "contracts/RealExample.sol":9498:9519  tradingStarted = true */
       0x0100
       exp
       dup2
@@ -2988,28 +2988,28 @@ sub_0: assembly {
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":9546:9558  block.number */
+        /* "contracts/RealExample.sol":9544:9556  block.number */
       number
-        /* "contracts/RealExample.sol":9532:9543  launchBlock */
+        /* "contracts/RealExample.sol":9530:9541  launchBlock */
       0x04
-        /* "contracts/RealExample.sol":9532:9558  launchBlock = block.number */
+        /* "contracts/RealExample.sol":9530:9556  launchBlock = block.number */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":8895:9566  function openTrading() external onlyOwner() {... */
+        /* "contracts/RealExample.sol":8893:9564  function openTrading() external onlyOwner() {... */
       jump	// out
-        /* "contracts/RealExample.sol":5634:5777  function allowance(address owner, address spender) public view override returns (uint256) {... */
+        /* "contracts/RealExample.sol":5632:5775  function allowance(address owner, address spender) public view override returns (uint256) {... */
     tag_98:
-        /* "contracts/RealExample.sol":5715:5722  uint256 */
+        /* "contracts/RealExample.sol":5713:5720  uint256 */
       0x00
-        /* "contracts/RealExample.sol":5742:5753  _allowances */
+        /* "contracts/RealExample.sol":5740:5751  _allowances */
       0x0e
-        /* "contracts/RealExample.sol":5742:5760  _allowances[owner] */
+        /* "contracts/RealExample.sol":5740:5758  _allowances[owner] */
       0x00
-        /* "contracts/RealExample.sol":5754:5759  owner */
+        /* "contracts/RealExample.sol":5752:5757  owner */
       dup5
-        /* "contracts/RealExample.sol":5742:5760  _allowances[owner] */
+        /* "contracts/RealExample.sol":5740:5758  _allowances[owner] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3025,11 +3025,11 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":5742:5769  _allowances[owner][spender] */
+        /* "contracts/RealExample.sol":5740:5767  _allowances[owner][spender] */
       0x00
-        /* "contracts/RealExample.sol":5761:5768  spender */
+        /* "contracts/RealExample.sol":5759:5766  spender */
       dup4
-        /* "contracts/RealExample.sol":5742:5769  _allowances[owner][spender] */
+        /* "contracts/RealExample.sol":5740:5767  _allowances[owner][spender] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3046,16 +3046,16 @@ sub_0: assembly {
       0x00
       keccak256
       sload
-        /* "contracts/RealExample.sol":5735:5769  return _allowances[owner][spender] */
+        /* "contracts/RealExample.sol":5733:5767  return _allowances[owner][spender] */
       swap1
       pop
-        /* "contracts/RealExample.sol":5634:5777  function allowance(address owner, address spender) public view override returns (uint256) {... */
+        /* "contracts/RealExample.sol":5632:5775  function allowance(address owner, address spender) public view override returns (uint256) {... */
       swap3
       swap2
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":4575:4626  uint256 public feeSwapThreshold = 0 * 10**_decimals */
+        /* "contracts/RealExample.sol":4573:4624  uint256 public feeSwapThreshold = 0 * 10**_decimals */
     tag_102:
       sload(0x10)
       dup2
@@ -3072,20 +3072,20 @@ sub_0: assembly {
         /* "contracts/RealExample.sol":1239:1337  function _msgSender() internal view virtual returns (address) {... */
       swap1
       jump	// out
-        /* "contracts/RealExample.sol":5291:5626  function _approve(address owner, address spender, uint256 amount) private {... */
+        /* "contracts/RealExample.sol":5289:5624  function _approve(address owner, address spender, uint256 amount) private {... */
     tag_109:
-        /* "contracts/RealExample.sol":5401:5402  0 */
+        /* "contracts/RealExample.sol":5399:5400  0 */
       0x00
-        /* "contracts/RealExample.sol":5384:5403  owner != address(0) */
+        /* "contracts/RealExample.sol":5382:5401  owner != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":5384:5389  owner */
+        /* "contracts/RealExample.sol":5382:5387  owner */
       dup4
-        /* "contracts/RealExample.sol":5384:5403  owner != address(0) */
+        /* "contracts/RealExample.sol":5382:5401  owner != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       sub
-        /* "contracts/RealExample.sol":5376:5444  require(owner != address(0), "ERC20: approve from the zero address") */
+        /* "contracts/RealExample.sol":5374:5442  require(owner != address(0), "ERC20: approve from the zero address") */
       tag_188
       jumpi
       mload(0x40)
@@ -3106,18 +3106,18 @@ sub_0: assembly {
       swap1
       revert
     tag_188:
-        /* "contracts/RealExample.sol":5482:5483  0 */
+        /* "contracts/RealExample.sol":5480:5481  0 */
       0x00
-        /* "contracts/RealExample.sol":5463:5484  spender != address(0) */
+        /* "contracts/RealExample.sol":5461:5482  spender != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":5463:5470  spender */
+        /* "contracts/RealExample.sol":5461:5468  spender */
       dup3
-        /* "contracts/RealExample.sol":5463:5484  spender != address(0) */
+        /* "contracts/RealExample.sol":5461:5482  spender != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       sub
-        /* "contracts/RealExample.sol":5455:5523  require(spender != address(0), "ERC20: approve to the zero address") */
+        /* "contracts/RealExample.sol":5453:5521  require(spender != address(0), "ERC20: approve to the zero address") */
       tag_191
       jumpi
       mload(0x40)
@@ -3138,15 +3138,15 @@ sub_0: assembly {
       swap1
       revert
     tag_191:
-        /* "contracts/RealExample.sol":5564:5570  amount */
+        /* "contracts/RealExample.sol":5562:5568  amount */
       dup1
-        /* "contracts/RealExample.sol":5534:5545  _allowances */
+        /* "contracts/RealExample.sol":5532:5543  _allowances */
       0x0e
-        /* "contracts/RealExample.sol":5534:5552  _allowances[owner] */
+        /* "contracts/RealExample.sol":5532:5550  _allowances[owner] */
       0x00
-        /* "contracts/RealExample.sol":5546:5551  owner */
+        /* "contracts/RealExample.sol":5544:5549  owner */
       dup6
-        /* "contracts/RealExample.sol":5534:5552  _allowances[owner] */
+        /* "contracts/RealExample.sol":5532:5550  _allowances[owner] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3162,11 +3162,11 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":5534:5561  _allowances[owner][spender] */
+        /* "contracts/RealExample.sol":5532:5559  _allowances[owner][spender] */
       0x00
-        /* "contracts/RealExample.sol":5553:5560  spender */
+        /* "contracts/RealExample.sol":5551:5558  spender */
       dup5
-        /* "contracts/RealExample.sol":5534:5561  _allowances[owner][spender] */
+        /* "contracts/RealExample.sol":5532:5559  _allowances[owner][spender] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3182,25 +3182,25 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":5534:5570  _allowances[owner][spender] = amount */
+        /* "contracts/RealExample.sol":5532:5568  _allowances[owner][spender] = amount */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":5602:5609  spender */
+        /* "contracts/RealExample.sol":5600:5607  spender */
       dup2
-        /* "contracts/RealExample.sol":5586:5618  Approval(owner, spender, amount) */
+        /* "contracts/RealExample.sol":5584:5616  Approval(owner, spender, amount) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":5595:5600  owner */
+        /* "contracts/RealExample.sol":5593:5598  owner */
       dup4
-        /* "contracts/RealExample.sol":5586:5618  Approval(owner, spender, amount) */
+        /* "contracts/RealExample.sol":5584:5616  Approval(owner, spender, amount) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925
-        /* "contracts/RealExample.sol":5611:5617  amount */
+        /* "contracts/RealExample.sol":5609:5615  amount */
       dup4
-        /* "contracts/RealExample.sol":5586:5618  Approval(owner, spender, amount) */
+        /* "contracts/RealExample.sol":5584:5616  Approval(owner, spender, amount) */
       mload(0x40)
       tag_194
       swap2
@@ -3214,25 +3214,25 @@ sub_0: assembly {
       sub
       swap1
       log3
-        /* "contracts/RealExample.sol":5291:5626  function _approve(address owner, address spender, uint256 amount) private {... */
+        /* "contracts/RealExample.sol":5289:5624  function _approve(address owner, address spender, uint256 amount) private {... */
       pop
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":6795:8887  function _transfer(address from, address to, uint256 amount) private {... */
+        /* "contracts/RealExample.sol":6793:8885  function _transfer(address from, address to, uint256 amount) private {... */
     tag_117:
-        /* "contracts/RealExample.sol":6899:6900  0 */
+        /* "contracts/RealExample.sol":6897:6898  0 */
       0x00
-        /* "contracts/RealExample.sol":6883:6901  from != address(0) */
+        /* "contracts/RealExample.sol":6881:6899  from != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":6883:6887  from */
+        /* "contracts/RealExample.sol":6881:6885  from */
       dup4
-        /* "contracts/RealExample.sol":6883:6901  from != address(0) */
+        /* "contracts/RealExample.sol":6881:6899  from != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       sub
-        /* "contracts/RealExample.sol":6875:6943  require(from != address(0), "ERC20: transfer from the zero address") */
+        /* "contracts/RealExample.sol":6873:6941  require(from != address(0), "ERC20: transfer from the zero address") */
       tag_196
       jumpi
       mload(0x40)
@@ -3253,18 +3253,18 @@ sub_0: assembly {
       swap1
       revert
     tag_196:
-        /* "contracts/RealExample.sol":6976:6977  0 */
+        /* "contracts/RealExample.sol":6974:6975  0 */
       0x00
-        /* "contracts/RealExample.sol":6962:6978  to != address(0) */
+        /* "contracts/RealExample.sol":6960:6976  to != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":6962:6964  to */
+        /* "contracts/RealExample.sol":6960:6962  to */
       dup3
-        /* "contracts/RealExample.sol":6962:6978  to != address(0) */
+        /* "contracts/RealExample.sol":6960:6976  to != address(0) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       sub
-        /* "contracts/RealExample.sol":6954:7018  require(to != address(0), "ERC20: transfer to the zero address") */
+        /* "contracts/RealExample.sol":6952:7016  require(to != address(0), "ERC20: transfer to the zero address") */
       tag_199
       jumpi
       mload(0x40)
@@ -3285,61 +3285,61 @@ sub_0: assembly {
       swap1
       revert
     tag_199:
-        /* "contracts/RealExample.sol":7029:7046  uint256 taxAmount */
+        /* "contracts/RealExample.sol":7027:7044  uint256 taxAmount */
       0x00
-        /* "contracts/RealExample.sol":7071:7078  owner() */
+        /* "contracts/RealExample.sol":7069:7076  owner() */
       tag_202
-        /* "contracts/RealExample.sol":7071:7076  owner */
+        /* "contracts/RealExample.sol":7069:7074  owner */
       tag_79
-        /* "contracts/RealExample.sol":7071:7078  owner() */
+        /* "contracts/RealExample.sol":7069:7076  owner() */
       jump	// in
     tag_202:
-        /* "contracts/RealExample.sol":7063:7078  from != owner() */
+        /* "contracts/RealExample.sol":7061:7076  from != owner() */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7063:7067  from */
+        /* "contracts/RealExample.sol":7061:7065  from */
       dup5
-        /* "contracts/RealExample.sol":7063:7078  from != owner() */
+        /* "contracts/RealExample.sol":7061:7076  from != owner() */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
       iszero
-        /* "contracts/RealExample.sol":7063:7095  from != owner() && to != owner() */
+        /* "contracts/RealExample.sol":7061:7093  from != owner() && to != owner() */
       dup1
       iszero
       tag_203
       jumpi
       pop
-        /* "contracts/RealExample.sol":7088:7095  owner() */
+        /* "contracts/RealExample.sol":7086:7093  owner() */
       tag_204
-        /* "contracts/RealExample.sol":7088:7093  owner */
+        /* "contracts/RealExample.sol":7086:7091  owner */
       tag_79
-        /* "contracts/RealExample.sol":7088:7095  owner() */
+        /* "contracts/RealExample.sol":7086:7093  owner() */
       jump	// in
     tag_204:
-        /* "contracts/RealExample.sol":7082:7095  to != owner() */
+        /* "contracts/RealExample.sol":7080:7093  to != owner() */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7082:7084  to */
+        /* "contracts/RealExample.sol":7080:7082  to */
       dup4
-        /* "contracts/RealExample.sol":7082:7095  to != owner() */
+        /* "contracts/RealExample.sol":7080:7093  to != owner() */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
       iszero
-        /* "contracts/RealExample.sol":7063:7095  from != owner() && to != owner() */
+        /* "contracts/RealExample.sol":7061:7093  from != owner() && to != owner() */
     tag_203:
-        /* "contracts/RealExample.sol":7059:8533  if (from != owner() && to != owner()) {... */
+        /* "contracts/RealExample.sol":7057:8531  if (from != owner() && to != owner()) {... */
       iszero
       tag_205
       jumpi
-        /* "contracts/RealExample.sol":7124:7133  isSpecial */
+        /* "contracts/RealExample.sol":7122:7131  isSpecial */
       0x0f
-        /* "contracts/RealExample.sol":7124:7137  isSpecial[to] */
+        /* "contracts/RealExample.sol":7122:7135  isSpecial[to] */
       0x00
-        /* "contracts/RealExample.sol":7134:7136  to */
+        /* "contracts/RealExample.sol":7132:7134  to */
       dup5
-        /* "contracts/RealExample.sol":7124:7137  isSpecial[to] */
+        /* "contracts/RealExample.sol":7122:7135  isSpecial[to] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3365,66 +3365,66 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":7124:7220  isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
+        /* "contracts/RealExample.sol":7122:7218  isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
       tag_206
       jumpi
-        /* "contracts/RealExample.sol":7144:7220  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
+        /* "contracts/RealExample.sol":7142:7218  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
       tag_207
-        /* "contracts/RealExample.sol":7216:7219  100 */
+        /* "contracts/RealExample.sol":7214:7217  100 */
       0x64
-        /* "contracts/RealExample.sol":7144:7211  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax) */
+        /* "contracts/RealExample.sol":7142:7209  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax) */
       tag_208
-        /* "contracts/RealExample.sol":7166:7181  _reduceBuyTaxAt */
+        /* "contracts/RealExample.sol":7164:7179  _reduceBuyTaxAt */
       sload(0x0a)
-        /* "contracts/RealExample.sol":7156:7165  numBuyers */
+        /* "contracts/RealExample.sol":7154:7163  numBuyers */
       sload(0x0c)
-        /* "contracts/RealExample.sol":7156:7181  numBuyers>_reduceBuyTaxAt */
+        /* "contracts/RealExample.sol":7154:7179  numBuyers>_reduceBuyTaxAt */
       gt
-        /* "contracts/RealExample.sol":7155:7210  (numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax */
+        /* "contracts/RealExample.sol":7153:7208  (numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax */
       tag_209
       jumpi
-        /* "contracts/RealExample.sol":7196:7210  _initialBuyTax */
+        /* "contracts/RealExample.sol":7194:7208  _initialBuyTax */
       sload(0x08)
-        /* "contracts/RealExample.sol":7155:7210  (numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax */
+        /* "contracts/RealExample.sol":7153:7208  (numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax */
       jump(tag_210)
     tag_209:
-        /* "contracts/RealExample.sol":7183:7195  _finalBuyTax */
+        /* "contracts/RealExample.sol":7181:7193  _finalBuyTax */
       sload(0x05)
-        /* "contracts/RealExample.sol":7155:7210  (numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax */
+        /* "contracts/RealExample.sol":7153:7208  (numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax */
     tag_210:
-        /* "contracts/RealExample.sol":7144:7150  amount */
+        /* "contracts/RealExample.sol":7142:7148  amount */
       dup6
-        /* "contracts/RealExample.sol":7144:7154  amount.mul */
+        /* "contracts/RealExample.sol":7142:7152  amount.mul */
       tag_211
       swap1
-        /* "contracts/RealExample.sol":7144:7211  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax) */
+        /* "contracts/RealExample.sol":7142:7209  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_208:
-        /* "contracts/RealExample.sol":7144:7215  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div */
+        /* "contracts/RealExample.sol":7142:7213  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div */
       tag_212
       swap1
-        /* "contracts/RealExample.sol":7144:7220  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
+        /* "contracts/RealExample.sol":7142:7218  amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_207:
-        /* "contracts/RealExample.sol":7124:7220  isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
+        /* "contracts/RealExample.sol":7122:7218  isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
       jump(tag_213)
     tag_206:
-        /* "contracts/RealExample.sol":7140:7141  1 */
+        /* "contracts/RealExample.sol":7138:7139  1 */
       0x01
-        /* "contracts/RealExample.sol":7124:7220  isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
+        /* "contracts/RealExample.sol":7122:7218  isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
     tag_213:
-        /* "contracts/RealExample.sol":7112:7220  taxAmount = isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
+        /* "contracts/RealExample.sol":7110:7218  taxAmount = isSpecial[to] ? 1 : amount.mul((numBuyers>_reduceBuyTaxAt)?_finalBuyTax:_initialBuyTax).div(100) */
       swap1
       pop
-        /* "contracts/RealExample.sol":7249:7257  pairAddr */
+        /* "contracts/RealExample.sol":7247:7255  pairAddr */
       0x02
       0x00
       swap1
@@ -3436,22 +3436,22 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7241:7257  from == pairAddr */
+        /* "contracts/RealExample.sol":7239:7255  from == pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7241:7245  from */
+        /* "contracts/RealExample.sol":7239:7243  from */
       dup5
-        /* "contracts/RealExample.sol":7241:7257  from == pairAddr */
+        /* "contracts/RealExample.sol":7239:7255  from == pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
-        /* "contracts/RealExample.sol":7241:7285  from == pairAddr && to != address(uniRouter) */
+        /* "contracts/RealExample.sol":7239:7283  from == pairAddr && to != address(uniRouter) */
       dup1
       iszero
       tag_214
       jumpi
       pop
-        /* "contracts/RealExample.sol":7275:7284  uniRouter */
+        /* "contracts/RealExample.sol":7273:7282  uniRouter */
       0x01
       0x00
       swap1
@@ -3463,31 +3463,31 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7261:7285  to != address(uniRouter) */
+        /* "contracts/RealExample.sol":7259:7283  to != address(uniRouter) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7261:7263  to */
+        /* "contracts/RealExample.sol":7259:7261  to */
       dup4
-        /* "contracts/RealExample.sol":7261:7285  to != address(uniRouter) */
+        /* "contracts/RealExample.sol":7259:7283  to != address(uniRouter) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
       iszero
-        /* "contracts/RealExample.sol":7241:7285  from == pairAddr && to != address(uniRouter) */
+        /* "contracts/RealExample.sol":7239:7283  from == pairAddr && to != address(uniRouter) */
     tag_214:
-        /* "contracts/RealExample.sol":7241:7304  from == pairAddr && to != address(uniRouter) && ! isSpecial[to] */
+        /* "contracts/RealExample.sol":7239:7302  from == pairAddr && to != address(uniRouter) && ! isSpecial[to] */
       dup1
       iszero
       tag_215
       jumpi
       pop
-        /* "contracts/RealExample.sol":7291:7300  isSpecial */
+        /* "contracts/RealExample.sol":7289:7298  isSpecial */
       0x0f
-        /* "contracts/RealExample.sol":7291:7304  isSpecial[to] */
+        /* "contracts/RealExample.sol":7289:7302  isSpecial[to] */
       0x00
-        /* "contracts/RealExample.sol":7301:7303  to */
+        /* "contracts/RealExample.sol":7299:7301  to */
       dup5
-        /* "contracts/RealExample.sol":7291:7304  isSpecial[to] */
+        /* "contracts/RealExample.sol":7289:7302  isSpecial[to] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3513,22 +3513,22 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":7289:7304  ! isSpecial[to] */
+        /* "contracts/RealExample.sol":7287:7302  ! isSpecial[to] */
       iszero
-        /* "contracts/RealExample.sol":7241:7304  from == pairAddr && to != address(uniRouter) && ! isSpecial[to] */
+        /* "contracts/RealExample.sol":7239:7302  from == pairAddr && to != address(uniRouter) && ! isSpecial[to] */
     tag_215:
-        /* "contracts/RealExample.sol":7237:7649  if (from == pairAddr && to != address(uniRouter) && ! isSpecial[to] ) {... */
+        /* "contracts/RealExample.sol":7235:7647  if (from == pairAddr && to != address(uniRouter) && ! isSpecial[to] ) {... */
       iszero
       tag_216
       jumpi
-        /* "contracts/RealExample.sol":7344:7356  mTransaction */
+        /* "contracts/RealExample.sol":7342:7354  mTransaction */
       sload(0x12)
-        /* "contracts/RealExample.sol":7334:7340  amount */
+        /* "contracts/RealExample.sol":7332:7338  amount */
       dup3
-        /* "contracts/RealExample.sol":7334:7356  amount <= mTransaction */
+        /* "contracts/RealExample.sol":7332:7354  amount <= mTransaction */
       gt
       iszero
-        /* "contracts/RealExample.sol":7326:7386  require(amount <= mTransaction, "Exceeds the mTransaction.") */
+        /* "contracts/RealExample.sol":7324:7384  require(amount <= mTransaction, "Exceeds the mTransaction.") */
       tag_217
       jumpi
       mload(0x40)
@@ -3549,30 +3549,30 @@ sub_0: assembly {
       swap1
       revert
     tag_217:
-        /* "contracts/RealExample.sol":7439:7450  mWalletSize */
+        /* "contracts/RealExample.sol":7437:7448  mWalletSize */
       sload(0x13)
-        /* "contracts/RealExample.sol":7429:7435  amount */
+        /* "contracts/RealExample.sol":7427:7433  amount */
       dup3
-        /* "contracts/RealExample.sol":7413:7426  balanceOf(to) */
+        /* "contracts/RealExample.sol":7411:7424  balanceOf(to) */
       tag_220
-        /* "contracts/RealExample.sol":7423:7425  to */
+        /* "contracts/RealExample.sol":7421:7423  to */
       dup6
-        /* "contracts/RealExample.sol":7413:7422  balanceOf */
+        /* "contracts/RealExample.sol":7411:7420  balanceOf */
       tag_69
-        /* "contracts/RealExample.sol":7413:7426  balanceOf(to) */
+        /* "contracts/RealExample.sol":7411:7424  balanceOf(to) */
       jump	// in
     tag_220:
-        /* "contracts/RealExample.sol":7413:7435  balanceOf(to) + amount */
+        /* "contracts/RealExample.sol":7411:7433  balanceOf(to) + amount */
       tag_221
       swap2
       swap1
       tag_222
       jump	// in
     tag_221:
-        /* "contracts/RealExample.sol":7413:7450  balanceOf(to) + amount <= mWalletSize */
+        /* "contracts/RealExample.sol":7411:7448  balanceOf(to) + amount <= mWalletSize */
       gt
       iszero
-        /* "contracts/RealExample.sol":7405:7479  require(balanceOf(to) + amount <= mWalletSize, "Exceeds the mWalletSize.") */
+        /* "contracts/RealExample.sol":7403:7477  require(balanceOf(to) + amount <= mWalletSize, "Exceeds the mWalletSize.") */
       tag_223
       jumpi
       mload(0x40)
@@ -3593,49 +3593,49 @@ sub_0: assembly {
       swap1
       revert
     tag_223:
-        /* "contracts/RealExample.sol":7523:7535  block.number */
+        /* "contracts/RealExample.sol":7521:7533  block.number */
       number
-        /* "contracts/RealExample.sol":7518:7519  3 */
+        /* "contracts/RealExample.sol":7516:7517  3 */
       0x03
-        /* "contracts/RealExample.sol":7504:7515  launchBlock */
+        /* "contracts/RealExample.sol":7502:7513  launchBlock */
       sload(0x04)
-        /* "contracts/RealExample.sol":7504:7519  launchBlock + 3 */
+        /* "contracts/RealExample.sol":7502:7517  launchBlock + 3 */
       tag_226
       swap2
       swap1
       tag_222
       jump	// in
     tag_226:
-        /* "contracts/RealExample.sol":7504:7535  launchBlock + 3  > block.number */
+        /* "contracts/RealExample.sol":7502:7533  launchBlock + 3  > block.number */
       gt
-        /* "contracts/RealExample.sol":7500:7604  if (launchBlock + 3  > block.number) {... */
+        /* "contracts/RealExample.sol":7498:7602  if (launchBlock + 3  > block.number) {... */
       iszero
       tag_227
       jumpi
-        /* "contracts/RealExample.sol":7569:7583  isContract(to) */
+        /* "contracts/RealExample.sol":7567:7581  isContract(to) */
       tag_228
-        /* "contracts/RealExample.sol":7580:7582  to */
+        /* "contracts/RealExample.sol":7578:7580  to */
       dup4
-        /* "contracts/RealExample.sol":7569:7579  isContract */
+        /* "contracts/RealExample.sol":7567:7577  isContract */
       tag_229
-        /* "contracts/RealExample.sol":7569:7583  isContract(to) */
+        /* "contracts/RealExample.sol":7567:7581  isContract(to) */
       jump	// in
     tag_228:
-        /* "contracts/RealExample.sol":7568:7583  !isContract(to) */
+        /* "contracts/RealExample.sol":7566:7581  !isContract(to) */
       iszero
-        /* "contracts/RealExample.sol":7560:7584  require(!isContract(to)) */
+        /* "contracts/RealExample.sol":7558:7582  require(!isContract(to)) */
       tag_230
       jumpi
       0x00
       dup1
       revert
     tag_230:
-        /* "contracts/RealExample.sol":7500:7604  if (launchBlock + 3  > block.number) {... */
+        /* "contracts/RealExample.sol":7498:7602  if (launchBlock + 3  > block.number) {... */
     tag_227:
-        /* "contracts/RealExample.sol":7622:7631  numBuyers */
+        /* "contracts/RealExample.sol":7620:7629  numBuyers */
       0x0c
       0x00
-        /* "contracts/RealExample.sol":7622:7633  numBuyers++ */
+        /* "contracts/RealExample.sol":7620:7631  numBuyers++ */
       dup2
       sload
       dup1
@@ -3652,9 +3652,9 @@ sub_0: assembly {
       pop
       sstore
       pop
-        /* "contracts/RealExample.sol":7237:7649  if (from == pairAddr && to != address(uniRouter) && ! isSpecial[to] ) {... */
+        /* "contracts/RealExample.sol":7235:7647  if (from == pairAddr && to != address(uniRouter) && ! isSpecial[to] ) {... */
     tag_216:
-        /* "contracts/RealExample.sol":7675:7683  pairAddr */
+        /* "contracts/RealExample.sol":7673:7681  pairAddr */
       0x02
       0x00
       swap1
@@ -3666,29 +3666,29 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7669:7683  to != pairAddr */
+        /* "contracts/RealExample.sol":7667:7681  to != pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7669:7671  to */
+        /* "contracts/RealExample.sol":7667:7669  to */
       dup4
-        /* "contracts/RealExample.sol":7669:7683  to != pairAddr */
+        /* "contracts/RealExample.sol":7667:7681  to != pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
       iszero
-        /* "contracts/RealExample.sol":7669:7702  to != pairAddr && ! isSpecial[to] */
+        /* "contracts/RealExample.sol":7667:7700  to != pairAddr && ! isSpecial[to] */
       dup1
       iszero
       tag_233
       jumpi
       pop
-        /* "contracts/RealExample.sol":7689:7698  isSpecial */
+        /* "contracts/RealExample.sol":7687:7696  isSpecial */
       0x0f
-        /* "contracts/RealExample.sol":7689:7702  isSpecial[to] */
+        /* "contracts/RealExample.sol":7687:7700  isSpecial[to] */
       0x00
-        /* "contracts/RealExample.sol":7699:7701  to */
+        /* "contracts/RealExample.sol":7697:7699  to */
       dup5
-        /* "contracts/RealExample.sol":7689:7702  isSpecial[to] */
+        /* "contracts/RealExample.sol":7687:7700  isSpecial[to] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -3714,38 +3714,38 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":7687:7702  ! isSpecial[to] */
+        /* "contracts/RealExample.sol":7685:7700  ! isSpecial[to] */
       iszero
-        /* "contracts/RealExample.sol":7669:7702  to != pairAddr && ! isSpecial[to] */
+        /* "contracts/RealExample.sol":7667:7700  to != pairAddr && ! isSpecial[to] */
     tag_233:
-        /* "contracts/RealExample.sol":7665:7813  if (to != pairAddr && ! isSpecial[to]) {... */
+        /* "contracts/RealExample.sol":7663:7811  if (to != pairAddr && ! isSpecial[to]) {... */
       iszero
       tag_234
       jumpi
-        /* "contracts/RealExample.sol":7757:7768  mWalletSize */
+        /* "contracts/RealExample.sol":7755:7766  mWalletSize */
       sload(0x13)
-        /* "contracts/RealExample.sol":7747:7753  amount */
+        /* "contracts/RealExample.sol":7745:7751  amount */
       dup3
-        /* "contracts/RealExample.sol":7731:7744  balanceOf(to) */
+        /* "contracts/RealExample.sol":7729:7742  balanceOf(to) */
       tag_235
-        /* "contracts/RealExample.sol":7741:7743  to */
+        /* "contracts/RealExample.sol":7739:7741  to */
       dup6
-        /* "contracts/RealExample.sol":7731:7740  balanceOf */
+        /* "contracts/RealExample.sol":7729:7738  balanceOf */
       tag_69
-        /* "contracts/RealExample.sol":7731:7744  balanceOf(to) */
+        /* "contracts/RealExample.sol":7729:7742  balanceOf(to) */
       jump	// in
     tag_235:
-        /* "contracts/RealExample.sol":7731:7753  balanceOf(to) + amount */
+        /* "contracts/RealExample.sol":7729:7751  balanceOf(to) + amount */
       tag_236
       swap2
       swap1
       tag_222
       jump	// in
     tag_236:
-        /* "contracts/RealExample.sol":7731:7768  balanceOf(to) + amount <= mWalletSize */
+        /* "contracts/RealExample.sol":7729:7766  balanceOf(to) + amount <= mWalletSize */
       gt
       iszero
-        /* "contracts/RealExample.sol":7723:7797  require(balanceOf(to) + amount <= mWalletSize, "Exceeds the mWalletSize.") */
+        /* "contracts/RealExample.sol":7721:7795  require(balanceOf(to) + amount <= mWalletSize, "Exceeds the mWalletSize.") */
       tag_237
       jumpi
       mload(0x40)
@@ -3766,9 +3766,9 @@ sub_0: assembly {
       swap1
       revert
     tag_237:
-        /* "contracts/RealExample.sol":7665:7813  if (to != pairAddr && ! isSpecial[to]) {... */
+        /* "contracts/RealExample.sol":7663:7811  if (to != pairAddr && ! isSpecial[to]) {... */
     tag_234:
-        /* "contracts/RealExample.sol":7838:7846  pairAddr */
+        /* "contracts/RealExample.sol":7836:7844  pairAddr */
       0x02
       0x00
       swap1
@@ -3780,105 +3780,105 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7832:7846  to == pairAddr */
+        /* "contracts/RealExample.sol":7830:7844  to == pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7832:7834  to */
+        /* "contracts/RealExample.sol":7830:7832  to */
       dup4
-        /* "contracts/RealExample.sol":7832:7846  to == pairAddr */
+        /* "contracts/RealExample.sol":7830:7844  to == pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
-        /* "contracts/RealExample.sol":7832:7870  to == pairAddr && from!= address(this) */
+        /* "contracts/RealExample.sol":7830:7868  to == pairAddr && from!= address(this) */
       dup1
       iszero
       tag_239
       jumpi
       pop
-        /* "contracts/RealExample.sol":7865:7869  this */
+        /* "contracts/RealExample.sol":7863:7867  this */
       address
-        /* "contracts/RealExample.sol":7850:7870  from!= address(this) */
+        /* "contracts/RealExample.sol":7848:7868  from!= address(this) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":7850:7854  from */
+        /* "contracts/RealExample.sol":7848:7852  from */
       dup5
-        /* "contracts/RealExample.sol":7850:7870  from!= address(this) */
+        /* "contracts/RealExample.sol":7848:7868  from!= address(this) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
       iszero
-        /* "contracts/RealExample.sol":7832:7870  to == pairAddr && from!= address(this) */
+        /* "contracts/RealExample.sol":7830:7868  to == pairAddr && from!= address(this) */
     tag_239:
-        /* "contracts/RealExample.sol":7829:7998  if(to == pairAddr && from!= address(this) ){... */
+        /* "contracts/RealExample.sol":7827:7996  if(to == pairAddr && from!= address(this) ){... */
       iszero
       tag_240
       jumpi
-        /* "contracts/RealExample.sol":7903:7982  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div(100) */
+        /* "contracts/RealExample.sol":7901:7980  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div(100) */
       tag_241
-        /* "contracts/RealExample.sol":7978:7981  100 */
+        /* "contracts/RealExample.sol":7976:7979  100 */
       0x64
-        /* "contracts/RealExample.sol":7903:7973  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax) */
+        /* "contracts/RealExample.sol":7901:7971  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax) */
       tag_242
-        /* "contracts/RealExample.sol":7925:7941  _reduceSellTaxAt */
+        /* "contracts/RealExample.sol":7923:7939  _reduceSellTaxAt */
       sload(0x0b)
-        /* "contracts/RealExample.sol":7915:7924  numBuyers */
+        /* "contracts/RealExample.sol":7913:7922  numBuyers */
       sload(0x0c)
-        /* "contracts/RealExample.sol":7915:7941  numBuyers>_reduceSellTaxAt */
+        /* "contracts/RealExample.sol":7913:7939  numBuyers>_reduceSellTaxAt */
       gt
-        /* "contracts/RealExample.sol":7914:7972  (numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax */
+        /* "contracts/RealExample.sol":7912:7970  (numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax */
       tag_243
       jumpi
-        /* "contracts/RealExample.sol":7957:7972  _initialSellTax */
+        /* "contracts/RealExample.sol":7955:7970  _initialSellTax */
       sload(0x09)
-        /* "contracts/RealExample.sol":7914:7972  (numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax */
+        /* "contracts/RealExample.sol":7912:7970  (numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax */
       jump(tag_244)
     tag_243:
-        /* "contracts/RealExample.sol":7943:7956  _finalSellTax */
+        /* "contracts/RealExample.sol":7941:7954  _finalSellTax */
       sload(0x06)
-        /* "contracts/RealExample.sol":7914:7972  (numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax */
+        /* "contracts/RealExample.sol":7912:7970  (numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax */
     tag_244:
-        /* "contracts/RealExample.sol":7903:7909  amount */
+        /* "contracts/RealExample.sol":7901:7907  amount */
       dup6
-        /* "contracts/RealExample.sol":7903:7913  amount.mul */
+        /* "contracts/RealExample.sol":7901:7911  amount.mul */
       tag_211
       swap1
-        /* "contracts/RealExample.sol":7903:7973  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax) */
+        /* "contracts/RealExample.sol":7901:7971  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_242:
-        /* "contracts/RealExample.sol":7903:7977  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div */
+        /* "contracts/RealExample.sol":7901:7975  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div */
       tag_212
       swap1
-        /* "contracts/RealExample.sol":7903:7982  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div(100) */
+        /* "contracts/RealExample.sol":7901:7980  amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div(100) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_241:
-        /* "contracts/RealExample.sol":7891:7982  taxAmount = amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div(100) */
+        /* "contracts/RealExample.sol":7889:7980  taxAmount = amount.mul((numBuyers>_reduceSellTaxAt)?_finalSellTax:_initialSellTax).div(100) */
       swap1
       pop
-        /* "contracts/RealExample.sol":7829:7998  if(to == pairAddr && from!= address(this) ){... */
+        /* "contracts/RealExample.sol":7827:7996  if(to == pairAddr && from!= address(this) ){... */
     tag_240:
-        /* "contracts/RealExample.sol":8014:8042  uint256 contractTokenBalance */
+        /* "contracts/RealExample.sol":8012:8040  uint256 contractTokenBalance */
       0x00
-        /* "contracts/RealExample.sol":8045:8069  balanceOf(address(this)) */
+        /* "contracts/RealExample.sol":8043:8067  balanceOf(address(this)) */
       tag_245
-        /* "contracts/RealExample.sol":8063:8067  this */
+        /* "contracts/RealExample.sol":8061:8065  this */
       address
-        /* "contracts/RealExample.sol":8045:8054  balanceOf */
+        /* "contracts/RealExample.sol":8043:8052  balanceOf */
       tag_69
-        /* "contracts/RealExample.sol":8045:8069  balanceOf(address(this)) */
+        /* "contracts/RealExample.sol":8043:8067  balanceOf(address(this)) */
       jump	// in
     tag_245:
-        /* "contracts/RealExample.sol":8014:8069  uint256 contractTokenBalance = balanceOf(address(this)) */
+        /* "contracts/RealExample.sol":8012:8067  uint256 contractTokenBalance = balanceOf(address(this)) */
       swap1
       pop
-        /* "contracts/RealExample.sol":8089:8097  swapping */
+        /* "contracts/RealExample.sol":8087:8095  swapping */
       0x02
       0x15
       swap1
@@ -3890,15 +3890,15 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":8088:8097  !swapping */
+        /* "contracts/RealExample.sol":8086:8095  !swapping */
       iszero
-        /* "contracts/RealExample.sol":8088:8117  !swapping && to   == pairAddr */
+        /* "contracts/RealExample.sol":8086:8115  !swapping && to   == pairAddr */
       dup1
       iszero
       tag_246
       jumpi
       pop
-        /* "contracts/RealExample.sol":8109:8117  pairAddr */
+        /* "contracts/RealExample.sol":8107:8115  pairAddr */
       0x02
       0x00
       swap1
@@ -3910,24 +3910,24 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":8101:8117  to   == pairAddr */
+        /* "contracts/RealExample.sol":8099:8115  to   == pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":8101:8103  to */
+        /* "contracts/RealExample.sol":8099:8101  to */
       dup5
-        /* "contracts/RealExample.sol":8101:8117  to   == pairAddr */
+        /* "contracts/RealExample.sol":8099:8115  to   == pairAddr */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       eq
-        /* "contracts/RealExample.sol":8088:8117  !swapping && to   == pairAddr */
+        /* "contracts/RealExample.sol":8086:8115  !swapping && to   == pairAddr */
     tag_246:
-        /* "contracts/RealExample.sol":8088:8132  !swapping && to   == pairAddr && swapEnabled */
+        /* "contracts/RealExample.sol":8086:8130  !swapping && to   == pairAddr && swapEnabled */
       dup1
       iszero
       tag_247
       jumpi
       pop
-        /* "contracts/RealExample.sol":8121:8132  swapEnabled */
+        /* "contracts/RealExample.sol":8119:8130  swapEnabled */
       0x02
       0x16
       swap1
@@ -3939,49 +3939,49 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":8088:8132  !swapping && to   == pairAddr && swapEnabled */
+        /* "contracts/RealExample.sol":8086:8130  !swapping && to   == pairAddr && swapEnabled */
     tag_247:
-        /* "contracts/RealExample.sol":8088:8173  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold */
+        /* "contracts/RealExample.sol":8086:8171  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold */
       dup1
       iszero
       tag_248
       jumpi
       pop
-        /* "contracts/RealExample.sol":8157:8173  feeSwapThreshold */
+        /* "contracts/RealExample.sol":8155:8171  feeSwapThreshold */
       sload(0x10)
-        /* "contracts/RealExample.sol":8136:8156  contractTokenBalance */
+        /* "contracts/RealExample.sol":8134:8154  contractTokenBalance */
       dup2
-        /* "contracts/RealExample.sol":8136:8173  contractTokenBalance>feeSwapThreshold */
+        /* "contracts/RealExample.sol":8134:8171  contractTokenBalance>feeSwapThreshold */
       gt
-        /* "contracts/RealExample.sol":8088:8173  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold */
+        /* "contracts/RealExample.sol":8086:8171  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold */
     tag_248:
-        /* "contracts/RealExample.sol":8088:8205  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore */
+        /* "contracts/RealExample.sol":8086:8203  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore */
       dup1
       iszero
       tag_249
       jumpi
       pop
-        /* "contracts/RealExample.sol":8187:8205  _preventSwapBefore */
+        /* "contracts/RealExample.sol":8185:8203  _preventSwapBefore */
       sload(0x07)
-        /* "contracts/RealExample.sol":8177:8186  numBuyers */
+        /* "contracts/RealExample.sol":8175:8184  numBuyers */
       sload(0x0c)
-        /* "contracts/RealExample.sol":8177:8205  numBuyers>_preventSwapBefore */
+        /* "contracts/RealExample.sol":8175:8203  numBuyers>_preventSwapBefore */
       gt
-        /* "contracts/RealExample.sol":8088:8205  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore */
+        /* "contracts/RealExample.sol":8086:8203  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore */
     tag_249:
-        /* "contracts/RealExample.sol":8088:8225  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from] */
+        /* "contracts/RealExample.sol":8086:8223  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from] */
       dup1
       iszero
       tag_250
       jumpi
       pop
-        /* "contracts/RealExample.sol":8210:8219  isSpecial */
+        /* "contracts/RealExample.sol":8208:8217  isSpecial */
       0x0f
-        /* "contracts/RealExample.sol":8210:8225  isSpecial[from] */
+        /* "contracts/RealExample.sol":8208:8223  isSpecial[from] */
       0x00
-        /* "contracts/RealExample.sol":8220:8224  from */
+        /* "contracts/RealExample.sol":8218:8222  from */
       dup7
-        /* "contracts/RealExample.sol":8210:8225  isSpecial[from] */
+        /* "contracts/RealExample.sol":8208:8223  isSpecial[from] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4007,98 +4007,98 @@ sub_0: assembly {
       div
       0xff
       and
-        /* "contracts/RealExample.sol":8209:8225  !isSpecial[from] */
+        /* "contracts/RealExample.sol":8207:8223  !isSpecial[from] */
       iszero
-        /* "contracts/RealExample.sol":8088:8225  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from] */
+        /* "contracts/RealExample.sol":8086:8223  !swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from] */
     tag_250:
-        /* "contracts/RealExample.sol":8084:8522  if (!swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from]) {... */
+        /* "contracts/RealExample.sol":8082:8520  if (!swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from]) {... */
       iszero
       tag_251
       jumpi
-        /* "contracts/RealExample.sol":8246:8314  swapTokensForEth(min(amount,min(contractTokenBalance,feeSwapLimit))) */
+        /* "contracts/RealExample.sol":8244:8312  swapTokensForEth(min(amount,min(contractTokenBalance,feeSwapLimit))) */
       tag_252
-        /* "contracts/RealExample.sol":8263:8313  min(amount,min(contractTokenBalance,feeSwapLimit)) */
+        /* "contracts/RealExample.sol":8261:8311  min(amount,min(contractTokenBalance,feeSwapLimit)) */
       tag_253
-        /* "contracts/RealExample.sol":8267:8273  amount */
+        /* "contracts/RealExample.sol":8265:8271  amount */
       dup5
-        /* "contracts/RealExample.sol":8274:8312  min(contractTokenBalance,feeSwapLimit) */
+        /* "contracts/RealExample.sol":8272:8310  min(contractTokenBalance,feeSwapLimit) */
       tag_254
-        /* "contracts/RealExample.sol":8278:8298  contractTokenBalance */
+        /* "contracts/RealExample.sol":8276:8296  contractTokenBalance */
       dup5
-        /* "contracts/RealExample.sol":8299:8311  feeSwapLimit */
+        /* "contracts/RealExample.sol":8297:8309  feeSwapLimit */
       sload(0x11)
-        /* "contracts/RealExample.sol":8274:8277  min */
+        /* "contracts/RealExample.sol":8272:8275  min */
       tag_255
-        /* "contracts/RealExample.sol":8274:8312  min(contractTokenBalance,feeSwapLimit) */
+        /* "contracts/RealExample.sol":8272:8310  min(contractTokenBalance,feeSwapLimit) */
       jump	// in
     tag_254:
-        /* "contracts/RealExample.sol":8263:8266  min */
+        /* "contracts/RealExample.sol":8261:8264  min */
       tag_255
-        /* "contracts/RealExample.sol":8263:8313  min(amount,min(contractTokenBalance,feeSwapLimit)) */
+        /* "contracts/RealExample.sol":8261:8311  min(amount,min(contractTokenBalance,feeSwapLimit)) */
       jump	// in
     tag_253:
-        /* "contracts/RealExample.sol":8246:8262  swapTokensForEth */
+        /* "contracts/RealExample.sol":8244:8260  swapTokensForEth */
       tag_256
-        /* "contracts/RealExample.sol":8246:8314  swapTokensForEth(min(amount,min(contractTokenBalance,feeSwapLimit))) */
+        /* "contracts/RealExample.sol":8244:8312  swapTokensForEth(min(amount,min(contractTokenBalance,feeSwapLimit))) */
       jump	// in
     tag_252:
-        /* "contracts/RealExample.sol":8333:8359  uint256 contractETHBalance */
+        /* "contracts/RealExample.sol":8331:8357  uint256 contractETHBalance */
       0x00
-        /* "contracts/RealExample.sol":8362:8383  address(this).balance */
+        /* "contracts/RealExample.sol":8360:8381  address(this).balance */
       selfbalance
-        /* "contracts/RealExample.sol":8333:8383  uint256 contractETHBalance = address(this).balance */
+        /* "contracts/RealExample.sol":8331:8381  uint256 contractETHBalance = address(this).balance */
       swap1
       pop
-        /* "contracts/RealExample.sol":8426:8427  0 */
+        /* "contracts/RealExample.sol":8424:8425  0 */
       0x00
-        /* "contracts/RealExample.sol":8405:8423  contractETHBalance */
+        /* "contracts/RealExample.sol":8403:8421  contractETHBalance */
       dup2
-        /* "contracts/RealExample.sol":8405:8427  contractETHBalance > 0 */
+        /* "contracts/RealExample.sol":8403:8425  contractETHBalance > 0 */
       gt
-        /* "contracts/RealExample.sol":8402:8507  if(contractETHBalance > 0) {... */
+        /* "contracts/RealExample.sol":8400:8505  if(contractETHBalance > 0) {... */
       iszero
       tag_257
       jumpi
-        /* "contracts/RealExample.sol":8452:8487  sendETHToFee(address(this).balance) */
+        /* "contracts/RealExample.sol":8450:8485  sendETHToFee(address(this).balance) */
       tag_258
-        /* "contracts/RealExample.sol":8465:8486  address(this).balance */
+        /* "contracts/RealExample.sol":8463:8484  address(this).balance */
       selfbalance
-        /* "contracts/RealExample.sol":8452:8464  sendETHToFee */
+        /* "contracts/RealExample.sol":8450:8462  sendETHToFee */
       tag_259
-        /* "contracts/RealExample.sol":8452:8487  sendETHToFee(address(this).balance) */
+        /* "contracts/RealExample.sol":8450:8485  sendETHToFee(address(this).balance) */
       jump	// in
     tag_258:
-        /* "contracts/RealExample.sol":8402:8507  if(contractETHBalance > 0) {... */
+        /* "contracts/RealExample.sol":8400:8505  if(contractETHBalance > 0) {... */
     tag_257:
-        /* "contracts/RealExample.sol":8227:8522  {... */
+        /* "contracts/RealExample.sol":8225:8520  {... */
       pop
-        /* "contracts/RealExample.sol":8084:8522  if (!swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from]) {... */
+        /* "contracts/RealExample.sol":8082:8520  if (!swapping && to   == pairAddr && swapEnabled && contractTokenBalance>feeSwapThreshold && numBuyers>_preventSwapBefore && !isSpecial[from]) {... */
     tag_251:
-        /* "contracts/RealExample.sol":7097:8533  {... */
+        /* "contracts/RealExample.sol":7095:8531  {... */
       pop
-        /* "contracts/RealExample.sol":7059:8533  if (from != owner() && to != owner()) {... */
+        /* "contracts/RealExample.sol":7057:8531  if (from != owner() && to != owner()) {... */
     tag_205:
-        /* "contracts/RealExample.sol":8558:8559  0 */
+        /* "contracts/RealExample.sol":8556:8557  0 */
       0x00
-        /* "contracts/RealExample.sol":8548:8557  taxAmount */
+        /* "contracts/RealExample.sol":8546:8555  taxAmount */
       dup2
-        /* "contracts/RealExample.sol":8548:8559  taxAmount>0 */
+        /* "contracts/RealExample.sol":8546:8557  taxAmount>0 */
       gt
-        /* "contracts/RealExample.sol":8545:8710  if(taxAmount>0){... */
+        /* "contracts/RealExample.sol":8543:8708  if(taxAmount>0){... */
       iszero
       tag_260
       jumpi
-        /* "contracts/RealExample.sol":8600:8639  _balances[address(this)].add(taxAmount) */
+        /* "contracts/RealExample.sol":8598:8637  _balances[address(this)].add(taxAmount) */
       tag_261
-        /* "contracts/RealExample.sol":8629:8638  taxAmount */
+        /* "contracts/RealExample.sol":8627:8636  taxAmount */
       dup2
-        /* "contracts/RealExample.sol":8600:8609  _balances */
+        /* "contracts/RealExample.sol":8598:8607  _balances */
       0x0d
-        /* "contracts/RealExample.sol":8600:8624  _balances[address(this)] */
+        /* "contracts/RealExample.sol":8598:8622  _balances[address(this)] */
       0x00
-        /* "contracts/RealExample.sol":8618:8622  this */
+        /* "contracts/RealExample.sol":8616:8620  this */
       address
-        /* "contracts/RealExample.sol":8600:8624  _balances[address(this)] */
+        /* "contracts/RealExample.sol":8598:8622  _balances[address(this)] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4115,23 +4115,23 @@ sub_0: assembly {
       0x00
       keccak256
       sload
-        /* "contracts/RealExample.sol":8600:8628  _balances[address(this)].add */
+        /* "contracts/RealExample.sol":8598:8626  _balances[address(this)].add */
       tag_262
       swap1
-        /* "contracts/RealExample.sol":8600:8639  _balances[address(this)].add(taxAmount) */
+        /* "contracts/RealExample.sol":8598:8637  _balances[address(this)].add(taxAmount) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_261:
-        /* "contracts/RealExample.sol":8575:8584  _balances */
+        /* "contracts/RealExample.sol":8573:8582  _balances */
       0x0d
-        /* "contracts/RealExample.sol":8575:8599  _balances[address(this)] */
+        /* "contracts/RealExample.sol":8573:8597  _balances[address(this)] */
       0x00
-        /* "contracts/RealExample.sol":8593:8597  this */
+        /* "contracts/RealExample.sol":8591:8595  this */
       address
-        /* "contracts/RealExample.sol":8575:8599  _balances[address(this)] */
+        /* "contracts/RealExample.sol":8573:8597  _balances[address(this)] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4147,25 +4147,25 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":8575:8639  _balances[address(this)]=_balances[address(this)].add(taxAmount) */
+        /* "contracts/RealExample.sol":8573:8637  _balances[address(this)]=_balances[address(this)].add(taxAmount) */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":8682:8686  this */
+        /* "contracts/RealExample.sol":8680:8684  this */
       address
-        /* "contracts/RealExample.sol":8659:8698  Transfer(from, address(this),taxAmount) */
+        /* "contracts/RealExample.sol":8657:8696  Transfer(from, address(this),taxAmount) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":8668:8672  from */
+        /* "contracts/RealExample.sol":8666:8670  from */
       dup5
-        /* "contracts/RealExample.sol":8659:8698  Transfer(from, address(this),taxAmount) */
+        /* "contracts/RealExample.sol":8657:8696  Transfer(from, address(this),taxAmount) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef
-        /* "contracts/RealExample.sol":8688:8697  taxAmount */
+        /* "contracts/RealExample.sol":8686:8695  taxAmount */
       dup4
-        /* "contracts/RealExample.sol":8659:8698  Transfer(from, address(this),taxAmount) */
+        /* "contracts/RealExample.sol":8657:8696  Transfer(from, address(this),taxAmount) */
       mload(0x40)
       tag_263
       swap2
@@ -4179,19 +4179,19 @@ sub_0: assembly {
       sub
       swap1
       log3
-        /* "contracts/RealExample.sol":8545:8710  if(taxAmount>0){... */
+        /* "contracts/RealExample.sol":8543:8708  if(taxAmount>0){... */
     tag_260:
-        /* "contracts/RealExample.sol":8736:8763  _balances[from].sub(amount) */
+        /* "contracts/RealExample.sol":8734:8761  _balances[from].sub(amount) */
       tag_264
-        /* "contracts/RealExample.sol":8756:8762  amount */
+        /* "contracts/RealExample.sol":8754:8760  amount */
       dup3
-        /* "contracts/RealExample.sol":8736:8745  _balances */
+        /* "contracts/RealExample.sol":8734:8743  _balances */
       0x0d
-        /* "contracts/RealExample.sol":8736:8751  _balances[from] */
+        /* "contracts/RealExample.sol":8734:8749  _balances[from] */
       0x00
-        /* "contracts/RealExample.sol":8746:8750  from */
+        /* "contracts/RealExample.sol":8744:8748  from */
       dup8
-        /* "contracts/RealExample.sol":8736:8751  _balances[from] */
+        /* "contracts/RealExample.sol":8734:8749  _balances[from] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4208,23 +4208,23 @@ sub_0: assembly {
       0x00
       keccak256
       sload
-        /* "contracts/RealExample.sol":8736:8755  _balances[from].sub */
+        /* "contracts/RealExample.sol":8734:8753  _balances[from].sub */
       tag_265
       swap1
-        /* "contracts/RealExample.sol":8736:8763  _balances[from].sub(amount) */
+        /* "contracts/RealExample.sol":8734:8761  _balances[from].sub(amount) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_264:
-        /* "contracts/RealExample.sol":8720:8729  _balances */
+        /* "contracts/RealExample.sol":8718:8727  _balances */
       0x0d
-        /* "contracts/RealExample.sol":8720:8735  _balances[from] */
+        /* "contracts/RealExample.sol":8718:8733  _balances[from] */
       0x00
-        /* "contracts/RealExample.sol":8730:8734  from */
+        /* "contracts/RealExample.sol":8728:8732  from */
       dup7
-        /* "contracts/RealExample.sol":8720:8735  _balances[from] */
+        /* "contracts/RealExample.sol":8718:8733  _balances[from] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4240,31 +4240,31 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":8720:8763  _balances[from]=_balances[from].sub(amount) */
+        /* "contracts/RealExample.sol":8718:8761  _balances[from]=_balances[from].sub(amount) */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":8788:8825  _balances[to].add(amount - taxAmount) */
+        /* "contracts/RealExample.sol":8786:8823  _balances[to].add(amount - taxAmount) */
       tag_266
-        /* "contracts/RealExample.sol":8815:8824  taxAmount */
+        /* "contracts/RealExample.sol":8813:8822  taxAmount */
       dup2
-        /* "contracts/RealExample.sol":8806:8812  amount */
+        /* "contracts/RealExample.sol":8804:8810  amount */
       dup4
-        /* "contracts/RealExample.sol":8806:8824  amount - taxAmount */
+        /* "contracts/RealExample.sol":8804:8822  amount - taxAmount */
       tag_267
       swap2
       swap1
       tag_268
       jump	// in
     tag_267:
-        /* "contracts/RealExample.sol":8788:8797  _balances */
+        /* "contracts/RealExample.sol":8786:8795  _balances */
       0x0d
-        /* "contracts/RealExample.sol":8788:8801  _balances[to] */
+        /* "contracts/RealExample.sol":8786:8799  _balances[to] */
       0x00
-        /* "contracts/RealExample.sol":8798:8800  to */
+        /* "contracts/RealExample.sol":8796:8798  to */
       dup7
-        /* "contracts/RealExample.sol":8788:8801  _balances[to] */
+        /* "contracts/RealExample.sol":8786:8799  _balances[to] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4281,23 +4281,23 @@ sub_0: assembly {
       0x00
       keccak256
       sload
-        /* "contracts/RealExample.sol":8788:8805  _balances[to].add */
+        /* "contracts/RealExample.sol":8786:8803  _balances[to].add */
       tag_262
       swap1
-        /* "contracts/RealExample.sol":8788:8825  _balances[to].add(amount - taxAmount) */
+        /* "contracts/RealExample.sol":8786:8823  _balances[to].add(amount - taxAmount) */
       swap2
       swap1
       0xffffffff
       and
       jump	// in
     tag_266:
-        /* "contracts/RealExample.sol":8774:8783  _balances */
+        /* "contracts/RealExample.sol":8772:8781  _balances */
       0x0d
-        /* "contracts/RealExample.sol":8774:8787  _balances[to] */
+        /* "contracts/RealExample.sol":8772:8785  _balances[to] */
       0x00
-        /* "contracts/RealExample.sol":8784:8786  to */
+        /* "contracts/RealExample.sol":8782:8784  to */
       dup6
-        /* "contracts/RealExample.sol":8774:8787  _balances[to] */
+        /* "contracts/RealExample.sol":8772:8785  _balances[to] */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xffffffffffffffffffffffffffffffffffffffff
@@ -4313,34 +4313,34 @@ sub_0: assembly {
       add
       0x00
       keccak256
-        /* "contracts/RealExample.sol":8774:8825  _balances[to]=_balances[to].add(amount - taxAmount) */
+        /* "contracts/RealExample.sol":8772:8823  _balances[to]=_balances[to].add(amount - taxAmount) */
       dup2
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":8856:8858  to */
+        /* "contracts/RealExample.sol":8854:8856  to */
       dup3
-        /* "contracts/RealExample.sol":8841:8879  Transfer(from, to, amount - taxAmount) */
+        /* "contracts/RealExample.sol":8839:8877  Transfer(from, to, amount - taxAmount) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":8850:8854  from */
+        /* "contracts/RealExample.sol":8848:8852  from */
       dup5
-        /* "contracts/RealExample.sol":8841:8879  Transfer(from, to, amount - taxAmount) */
+        /* "contracts/RealExample.sol":8839:8877  Transfer(from, to, amount - taxAmount) */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef
-        /* "contracts/RealExample.sol":8869:8878  taxAmount */
+        /* "contracts/RealExample.sol":8867:8876  taxAmount */
       dup4
-        /* "contracts/RealExample.sol":8860:8866  amount */
+        /* "contracts/RealExample.sol":8858:8864  amount */
       dup6
-        /* "contracts/RealExample.sol":8860:8878  amount - taxAmount */
+        /* "contracts/RealExample.sol":8858:8876  amount - taxAmount */
       tag_269
       swap2
       swap1
       tag_268
       jump	// in
     tag_269:
-        /* "contracts/RealExample.sol":8841:8879  Transfer(from, to, amount - taxAmount) */
+        /* "contracts/RealExample.sol":8839:8877  Transfer(from, to, amount - taxAmount) */
       mload(0x40)
       tag_270
       swap2
@@ -4354,9 +4354,9 @@ sub_0: assembly {
       sub
       swap1
       log3
-        /* "contracts/RealExample.sol":6864:8887  {... */
+        /* "contracts/RealExample.sol":6862:8885  {... */
       pop
-        /* "contracts/RealExample.sol":6795:8887  function _transfer(address from, address to, uint256 amount) private {... */
+        /* "contracts/RealExample.sol":6793:8885  function _transfer(address from, address to, uint256 amount) private {... */
       pop
       pop
       pop
@@ -4554,73 +4554,73 @@ sub_0: assembly {
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":9928:10123  function isContract(address account) private view returns (bool) {... */
+        /* "contracts/RealExample.sol":9926:10121  function isContract(address account) private view returns (bool) {... */
     tag_229:
-        /* "contracts/RealExample.sol":9987:9991  bool */
+        /* "contracts/RealExample.sol":9985:9989  bool */
       0x00
-        /* "contracts/RealExample.sol":10004:10016  uint256 size */
+        /* "contracts/RealExample.sol":10002:10014  uint256 size */
       dup1
-        /* "contracts/RealExample.sol":10071:10078  account */
+        /* "contracts/RealExample.sol":10069:10076  account */
       dup3
-        /* "contracts/RealExample.sol":10059:10079  extcodesize(account) */
+        /* "contracts/RealExample.sol":10057:10077  extcodesize(account) */
       extcodesize
-        /* "contracts/RealExample.sol":10051:10079  size := extcodesize(account) */
+        /* "contracts/RealExample.sol":10049:10077  size := extcodesize(account) */
       swap1
       pop
-        /* "contracts/RealExample.sol":10114:10115  0 */
+        /* "contracts/RealExample.sol":10112:10113  0 */
       0x00
-        /* "contracts/RealExample.sol":10107:10111  size */
+        /* "contracts/RealExample.sol":10105:10109  size */
       dup2
-        /* "contracts/RealExample.sol":10107:10115  size > 0 */
+        /* "contracts/RealExample.sol":10105:10113  size > 0 */
       gt
-        /* "contracts/RealExample.sol":10100:10115  return size > 0 */
+        /* "contracts/RealExample.sol":10098:10113  return size > 0 */
       swap2
       pop
       pop
-        /* "contracts/RealExample.sol":9928:10123  function isContract(address account) private view returns (bool) {... */
+        /* "contracts/RealExample.sol":9926:10121  function isContract(address account) private view returns (bool) {... */
       swap2
       swap1
       pop
       jump	// out
-        /* "contracts/RealExample.sol":10131:10231  function min(uint256 a, uint256 b) private pure returns (uint256){... */
+        /* "contracts/RealExample.sol":10129:10229  function min(uint256 a, uint256 b) private pure returns (uint256){... */
     tag_255:
-        /* "contracts/RealExample.sol":10188:10195  uint256 */
+        /* "contracts/RealExample.sol":10186:10193  uint256 */
       0x00
-        /* "contracts/RealExample.sol":10217:10218  b */
+        /* "contracts/RealExample.sol":10215:10216  b */
       dup2
-        /* "contracts/RealExample.sol":10215:10216  a */
+        /* "contracts/RealExample.sol":10213:10214  a */
       dup4
-        /* "contracts/RealExample.sol":10215:10218  a>b */
+        /* "contracts/RealExample.sol":10213:10216  a>b */
       gt
-        /* "contracts/RealExample.sol":10214:10223  (a>b)?b:a */
+        /* "contracts/RealExample.sol":10212:10221  (a>b)?b:a */
       tag_288
       jumpi
-        /* "contracts/RealExample.sol":10222:10223  a */
+        /* "contracts/RealExample.sol":10220:10221  a */
       dup3
-        /* "contracts/RealExample.sol":10214:10223  (a>b)?b:a */
+        /* "contracts/RealExample.sol":10212:10221  (a>b)?b:a */
       jump(tag_289)
     tag_288:
-        /* "contracts/RealExample.sol":10220:10221  b */
+        /* "contracts/RealExample.sol":10218:10219  b */
       dup2
-        /* "contracts/RealExample.sol":10214:10223  (a>b)?b:a */
+        /* "contracts/RealExample.sol":10212:10221  (a>b)?b:a */
     tag_289:
-        /* "contracts/RealExample.sol":10207:10223  return (a>b)?b:a */
+        /* "contracts/RealExample.sol":10205:10221  return (a>b)?b:a */
       swap1
       pop
-        /* "contracts/RealExample.sol":10131:10231  function min(uint256 a, uint256 b) private pure returns (uint256){... */
+        /* "contracts/RealExample.sol":10129:10229  function min(uint256 a, uint256 b) private pure returns (uint256){... */
       swap3
       swap2
       pop
       pop
       jump	// out
-        /* "contracts/RealExample.sol":10276:10741  function swapTokensForEth(uint256 tokenAmount) private lockTheSwap {... */
+        /* "contracts/RealExample.sol":10274:10739  function swapTokensForEth(uint256 tokenAmount) private lockTheSwap {... */
     tag_256:
-        /* "contracts/RealExample.sol":4921:4925  true */
+        /* "contracts/RealExample.sol":4919:4923  true */
       0x01
-        /* "contracts/RealExample.sol":4910:4918  swapping */
+        /* "contracts/RealExample.sol":4908:4916  swapping */
       0x02
       0x15
-        /* "contracts/RealExample.sol":4910:4925  swapping = true */
+        /* "contracts/RealExample.sol":4908:4923  swapping = true */
       0x0100
       exp
       dup2
@@ -4639,11 +4639,11 @@ sub_0: assembly {
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":10354:10375  address[] memory path */
+        /* "contracts/RealExample.sol":10352:10373  address[] memory path */
       0x00
-        /* "contracts/RealExample.sol":10392:10393  2 */
+        /* "contracts/RealExample.sol":10390:10391  2 */
       0x02
-        /* "contracts/RealExample.sol":10378:10394  new address[](2) */
+        /* "contracts/RealExample.sol":10376:10392  new address[](2) */
       0xffffffffffffffff
       dup2
       gt
@@ -4693,16 +4693,16 @@ sub_0: assembly {
       pop
     tag_295:
       pop
-        /* "contracts/RealExample.sol":10354:10394  address[] memory path = new address[](2) */
+        /* "contracts/RealExample.sol":10352:10392  address[] memory path = new address[](2) */
       swap1
       pop
-        /* "contracts/RealExample.sol":10423:10427  this */
+        /* "contracts/RealExample.sol":10421:10425  this */
       address
-        /* "contracts/RealExample.sol":10405:10409  path */
+        /* "contracts/RealExample.sol":10403:10407  path */
       dup2
-        /* "contracts/RealExample.sol":10410:10411  0 */
+        /* "contracts/RealExample.sol":10408:10409  0 */
       0x00
-        /* "contracts/RealExample.sol":10405:10412  path[0] */
+        /* "contracts/RealExample.sol":10403:10410  path[0] */
       dup2
       mload
       dup2
@@ -4719,7 +4719,7 @@ sub_0: assembly {
       0x20
       add
       add
-        /* "contracts/RealExample.sol":10405:10428  path[0] = address(this) */
+        /* "contracts/RealExample.sol":10403:10426  path[0] = address(this) */
       swap1
       0xffffffffffffffffffffffffffffffffffffffff
       and
@@ -4731,7 +4731,7 @@ sub_0: assembly {
       mstore
       pop
       pop
-        /* "contracts/RealExample.sol":10449:10458  uniRouter */
+        /* "contracts/RealExample.sol":10447:10456  uniRouter */
       0x01
       0x00
       swap1
@@ -4743,11 +4743,11 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":10449:10463  uniRouter.WETH */
+        /* "contracts/RealExample.sol":10447:10461  uniRouter.WETH */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0xad5c4648
-        /* "contracts/RealExample.sol":10449:10465  uniRouter.WETH() */
+        /* "contracts/RealExample.sol":10447:10463  uniRouter.WETH() */
       mload(0x40)
       dup2
       0xffffffff
@@ -4804,11 +4804,11 @@ sub_0: assembly {
       tag_162
       jump	// in
     tag_301:
-        /* "contracts/RealExample.sol":10439:10443  path */
+        /* "contracts/RealExample.sol":10437:10441  path */
       dup2
-        /* "contracts/RealExample.sol":10444:10445  1 */
+        /* "contracts/RealExample.sol":10442:10443  1 */
       0x01
-        /* "contracts/RealExample.sol":10439:10446  path[1] */
+        /* "contracts/RealExample.sol":10437:10444  path[1] */
       dup2
       mload
       dup2
@@ -4825,7 +4825,7 @@ sub_0: assembly {
       0x20
       add
       add
-        /* "contracts/RealExample.sol":10439:10465  path[1] = uniRouter.WETH() */
+        /* "contracts/RealExample.sol":10437:10463  path[1] = uniRouter.WETH() */
       swap1
       0xffffffffffffffffffffffffffffffffffffffff
       and
@@ -4837,11 +4837,11 @@ sub_0: assembly {
       mstore
       pop
       pop
-        /* "contracts/RealExample.sol":10476:10532  _approve(address(this), address(uniRouter), tokenAmount) */
+        /* "contracts/RealExample.sol":10474:10530  _approve(address(this), address(uniRouter), tokenAmount) */
       tag_304
-        /* "contracts/RealExample.sol":10493:10497  this */
+        /* "contracts/RealExample.sol":10491:10495  this */
       address
-        /* "contracts/RealExample.sol":10508:10517  uniRouter */
+        /* "contracts/RealExample.sol":10506:10515  uniRouter */
       0x01
       0x00
       swap1
@@ -4853,14 +4853,14 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":10520:10531  tokenAmount */
+        /* "contracts/RealExample.sol":10518:10529  tokenAmount */
       dup5
-        /* "contracts/RealExample.sol":10476:10484  _approve */
+        /* "contracts/RealExample.sol":10474:10482  _approve */
       tag_109
-        /* "contracts/RealExample.sol":10476:10532  _approve(address(this), address(uniRouter), tokenAmount) */
+        /* "contracts/RealExample.sol":10474:10530  _approve(address(this), address(uniRouter), tokenAmount) */
       jump	// in
     tag_304:
-        /* "contracts/RealExample.sol":10543:10552  uniRouter */
+        /* "contracts/RealExample.sol":10541:10550  uniRouter */
       0x01
       0x00
       swap1
@@ -4872,21 +4872,21 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":10543:10603  uniRouter.swapExactTokensForETHSupportingFeeOnTransferTokens */
+        /* "contracts/RealExample.sol":10541:10601  uniRouter.swapExactTokensForETHSupportingFeeOnTransferTokens */
       0xffffffffffffffffffffffffffffffffffffffff
       and
       0x791ac947
-        /* "contracts/RealExample.sol":10618:10629  tokenAmount */
+        /* "contracts/RealExample.sol":10616:10627  tokenAmount */
       dup4
-        /* "contracts/RealExample.sol":10644:10645  0 */
+        /* "contracts/RealExample.sol":10642:10643  0 */
       0x00
-        /* "contracts/RealExample.sol":10660:10664  path */
+        /* "contracts/RealExample.sol":10658:10662  path */
       dup5
-        /* "contracts/RealExample.sol":10687:10691  this */
+        /* "contracts/RealExample.sol":10685:10689  this */
       address
-        /* "contracts/RealExample.sol":10707:10722  block.timestamp */
+        /* "contracts/RealExample.sol":10705:10720  block.timestamp */
       timestamp
-        /* "contracts/RealExample.sol":10543:10733  uniRouter.swapExactTokensForETHSupportingFeeOnTransferTokens(... */
+        /* "contracts/RealExample.sol":10541:10731  uniRouter.swapExactTokensForETHSupportingFeeOnTransferTokens(... */
       mload(0x40)
       dup7
       0xffffffff
@@ -4944,14 +4944,14 @@ sub_0: assembly {
       pop
       pop
       pop
-        /* "contracts/RealExample.sol":10343:10741  {... */
+        /* "contracts/RealExample.sol":10341:10739  {... */
       pop
-        /* "contracts/RealExample.sol":4959:4964  false */
+        /* "contracts/RealExample.sol":4957:4962  false */
       0x00
-        /* "contracts/RealExample.sol":4948:4956  swapping */
+        /* "contracts/RealExample.sol":4946:4954  swapping */
       0x02
       0x15
-        /* "contracts/RealExample.sol":4948:4964  swapping = false */
+        /* "contracts/RealExample.sol":4946:4962  swapping = false */
       0x0100
       exp
       dup2
@@ -4970,12 +4970,12 @@ sub_0: assembly {
       swap1
       sstore
       pop
-        /* "contracts/RealExample.sol":10276:10741  function swapTokensForEth(uint256 tokenAmount) private lockTheSwap {... */
+        /* "contracts/RealExample.sol":10274:10739  function swapTokensForEth(uint256 tokenAmount) private lockTheSwap {... */
       pop
       jump	// out
-        /* "contracts/RealExample.sol":6527:6618  function sendETHToFee(uint256 amount) private {... */
+        /* "contracts/RealExample.sol":6525:6616  function sendETHToFee(uint256 amount) private {... */
     tag_259:
-        /* "contracts/RealExample.sol":6584:6593  feeWallet */
+        /* "contracts/RealExample.sol":6582:6591  feeWallet */
       0x03
       0x00
       swap1
@@ -4987,14 +4987,14 @@ sub_0: assembly {
       div
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":6584:6602  feeWallet.transfer */
+        /* "contracts/RealExample.sol":6582:6600  feeWallet.transfer */
       0xffffffffffffffffffffffffffffffffffffffff
       and
-        /* "contracts/RealExample.sol":6584:6610  feeWallet.transfer(amount) */
+        /* "contracts/RealExample.sol":6582:6608  feeWallet.transfer(amount) */
       0x08fc
-        /* "contracts/RealExample.sol":6603:6609  amount */
+        /* "contracts/RealExample.sol":6601:6607  amount */
       dup3
-        /* "contracts/RealExample.sol":6584:6610  feeWallet.transfer(amount) */
+        /* "contracts/RealExample.sol":6582:6608  feeWallet.transfer(amount) */
       swap1
       dup2
       iszero
@@ -5028,7 +5028,7 @@ sub_0: assembly {
       revert(0x00, returndatasize)
     tag_312:
       pop
-        /* "contracts/RealExample.sol":6527:6618  function sendETHToFee(uint256 amount) private {... */
+        /* "contracts/RealExample.sol":6525:6616  function sendETHToFee(uint256 amount) private {... */
       pop
       jump	// out
         /* "contracts/RealExample.sol":87:266  function add(uint256 a, uint256 b) internal pure returns (uint256) {... */

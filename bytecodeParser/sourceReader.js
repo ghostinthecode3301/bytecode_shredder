@@ -17,10 +17,11 @@ export async function findIndices(startLine, endLine, sourcePath) {
         rl.on('line', (line) => {
             //console.log(`Line from file: ${line} | f: ${line[0]} | l: ${line.length} | c: ${charIndex}`);
             if (lineNumber === startLine) initialCharIndex = charIndex;
-            charIndex += line.length;
+
+            charIndex += line.length + ((process.platform === "win32") ? 2 : 1); // Assuming Windows has '\r\n' and UNIX-like systems have '\n'
+
             if (lineNumber === endLine) finalCharIndex = charIndex - 1;
 
-            charIndex += (process.platform === "win32") ? 2 : 1; // Assuming Windows has '\r\n' and UNIX-like systems have '\n'
             lineNumber++;
         });
 
